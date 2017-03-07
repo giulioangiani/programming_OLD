@@ -1,0 +1,151 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Metaprogramming in Python</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/aferrari.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="images/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/metaprogramming.jpg"></figure>
+  <hgroup>
+    <h2>Make software<br>great again!</h2>
+    <p>Giulio Angiani - UniPr</p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>Metaprogramming</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>
+<p><b>Metaprogramming</b> is a programming technique in which computer programs have the ability to <u>treat programs as their data</u></p>
+</li>
+<li>
+<p>What does it mean?:</p>
+<ul>
+<li>a program can be designed to read, generate, analyse or transform other programs, and even modify itself while running</li>
+</ul>
+</li>
+<li>
+<p>the language in which the metaprogram is written is called the <i>metalanguage</i></p>
+</li>
+<li>the ability of a programming language to be its own metalanguage is called <i>reflection</i></li>
+</ul>
+<footer class="source">Wikipedia</footer></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Examples of metaprogramming</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>
+<p>Generative programming (code generation)</p>
+<ul>
+<li><em>Quine</em> (self-generating program)</li>
+</ul>
+<p><br><br><br><br></p>
+</li>
+</ul>
+<pre class="prettyprint" data-lang="Python"><code>&gt;&gt;&gt;s = 's = %r\nprint(s%%s)'
+&gt;&gt;&gt;print(s%s)
+
+s = 's = %r\nprint(s%%s)'
+print(s%s)
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Examples of metaprogramming</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>
+<p>Generative programming</p>
+<ul>
+<li>run time code generation or evalutation</li>
+</ul>
+<p><br><br><br><br></p>
+</li>
+</ul>
+<pre class="prettyprint" data-lang="Python"><code>&gt;&gt;&gt; exec("""d = {'code': 'run time created!'}""")
+&gt;&gt;&gt; d['code']
+'run time created!'
+
+&gt;&gt;&gt; s = "{'code': 'evaluated'}"
+&gt;&gt;&gt; d = eval(s)
+&gt;&gt;&gt; d['code']
+'evaluated'
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Examples of metaprogramming</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Self-modified run time program</li>
+</ul>
+<pre class="prettyprint" data-lang="Python"><code>&gt;&gt;&gt;s = 's = %r\nprint(s%%s)'
+&gt;&gt;&gt;print(s%s)
+
+s = 's = %r\nprint(s%%s)'
+print(s%s)
+</code></pre></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="images/logoUnipr.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Giulio Angiani <br> Universita' degli Studi di Parma
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>
