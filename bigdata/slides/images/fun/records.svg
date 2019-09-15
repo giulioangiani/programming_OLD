@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="-557 39 1290 723" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="40" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="40" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="67.5">
+      <tspan x="-320" y="67.5">return address</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="80" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="80" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="107.5">
+      <tspan x="-320" y="107.5">parameters</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="120" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="120" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="147.5">
+      <tspan x="-320" y="147.5">control link</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="160" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="160" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="187.5">
+      <tspan x="-320" y="187.5">saved machine status</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="200" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="200" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="227.5">
+      <tspan x="-320" y="227.5">local data</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="240" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="240" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="267.5">
+      <tspan x="-320" y="267.5">temporaries</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="280" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="280" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="307.5">
+      <tspan x="-320" y="307.5">return address</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="320" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="320" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="347.5">
+      <tspan x="-320" y="347.5">parameters</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="360" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="360" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="387.5">
+      <tspan x="-320" y="387.5">control link</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="400" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="400" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="427.5">
+      <tspan x="-320" y="427.5">saved machine status</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="440" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="440" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="467.5">
+      <tspan x="-320" y="467.5">local data</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="480" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="480" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="507.5">
+      <tspan x="-320" y="507.5">temporaries</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #000000" x1="-500" y1="280" x2="-140" y2="280"/>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="520" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="520" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="547.5">
+      <tspan x="-320" y="547.5">return address</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="560" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="560" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="587.5">
+      <tspan x="-320" y="587.5">parameters</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="600" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="600" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="627.5">
+      <tspan x="-320" y="627.5">control link</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="640" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="640" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="667.5">
+      <tspan x="-320" y="667.5">saved machine status</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="680" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="680" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="707.5">
+      <tspan x="-320" y="707.5">local data</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="-460" y="720" width="280" height="41.2222"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x="-460" y="720" width="280" height="41.2222"/>
+    <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="747.5">
+      <tspan x="-320" y="747.5">temporaries</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #000000" x1="-500" y1="520" x2="-140" y2="520"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 6; stroke-dasharray: 20; stroke: #ff0000" x1="-540" y1="740" x2="-540" y2="81.7082"/>
+    <polygon style="fill: #ff0000" points="-540,66.7082 -530,86.7082 -540,81.7082 -550,86.7082 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 6; stroke: #ff0000" points="-540,66.7082 -530,86.7082 -540,81.7082 -550,86.7082 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" d="M -168.1,748.791 A 266.35,266.35 0 0 0 -180,380.612"/>
+    <polygon style="fill: #ff0000" points="-178.402,759.658 -171.109,738.52 -167.685,749.163 -157.116,752.81 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-178.402,759.658 -171.109,738.52 -167.685,749.163 -157.116,752.81 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" d="M -168.073,507.594 A 264.9,264.9 0 0 0 -180,140.611"/>
+    <polygon style="fill: #ff0000" points="-178.399,518.439 -171.057,497.318 -167.657,507.969 -157.097,511.64 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ff0000" points="-178.399,518.439 -171.057,497.318 -167.657,507.969 -157.097,511.64 "/>
+  </g>
+  <g>
+    <rect style="fill: #bb0000" x="290" y="200" width="260" height="80"/>
+    <path style="fill: #bb0000" d="M 290,200 A 10,10 0 0 0 280,210 L 290,210 z"/>
+    <path style="fill: #bb0000" d="M 560,210 A 10,10 0 0 0 550,200 L 550,210 z"/>
+    <rect style="fill: #bb0000" x="280" y="210" width="280" height="60"/>
+    <path style="fill: #bb0000" d="M 280,270 A 10,10 0 0 0 290,280 L 290,270 z"/>
+    <path style="fill: #bb0000" d="M 550,280 A 10,10 0 0 0 560,270 L 550,270 z"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="200" x2="550" y2="200"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="280" x2="550" y2="280"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 290,200 A 10,10 0 0 0 280,210"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 560,210 A 10,10 0 0 0 550,200"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="280" y1="210" x2="280" y2="270"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="560" y1="210" x2="560" y2="270"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 280,270 A 10,10 0 0 0 290,280"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 550,280 A 10,10 0 0 0 560,270"/>
+    <text font-size="33.8667" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="250.283">
+      <tspan x="420" y="250.283">Code</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #000099" x="290" y="300" width="260" height="80"/>
+    <path style="fill: #000099" d="M 290,300 A 10,10 0 0 0 280,310 L 290,310 z"/>
+    <path style="fill: #000099" d="M 560,310 A 10,10 0 0 0 550,300 L 550,310 z"/>
+    <rect style="fill: #000099" x="280" y="310" width="280" height="60"/>
+    <path style="fill: #000099" d="M 280,370 A 10,10 0 0 0 290,380 L 290,370 z"/>
+    <path style="fill: #000099" d="M 550,380 A 10,10 0 0 0 560,370 L 550,370 z"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="300" x2="550" y2="300"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="380" x2="550" y2="380"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 290,300 A 10,10 0 0 0 280,310"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 560,310 A 10,10 0 0 0 550,300"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="280" y1="310" x2="280" y2="370"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="560" y1="310" x2="560" y2="370"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 280,370 A 10,10 0 0 0 290,380"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 550,380 A 10,10 0 0 0 560,370"/>
+    <text font-size="33.8667" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="350.283">
+      <tspan x="420" y="350.283">Global data</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #006600" x="290" y="400" width="260" height="120"/>
+    <path style="fill: #006600" d="M 290,400 A 10,10 0 0 0 280,410 L 290,410 z"/>
+    <path style="fill: #006600" d="M 560,410 A 10,10 0 0 0 550,400 L 550,410 z"/>
+    <rect style="fill: #006600" x="280" y="410" width="280" height="100"/>
+    <path style="fill: #006600" d="M 280,510 A 10,10 0 0 0 290,520 L 290,510 z"/>
+    <path style="fill: #006600" d="M 550,520 A 10,10 0 0 0 560,510 L 550,510 z"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="400" x2="550" y2="400"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="520" x2="550" y2="520"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 290,400 A 10,10 0 0 0 280,410"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 560,410 A 10,10 0 0 0 550,400"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="280" y1="410" x2="280" y2="510"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="560" y1="410" x2="560" y2="510"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 280,510 A 10,10 0 0 0 290,520"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 550,520 A 10,10 0 0 0 560,510"/>
+    <text font-size="33.8667" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="470.283">
+      <tspan x="420" y="470.283">Heap (↓)</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #7f7f7f" x="290" y="540" width="260" height="60"/>
+    <path style="fill: #7f7f7f" d="M 290,540 A 10,10 0 0 0 280,550 L 290,550 z"/>
+    <path style="fill: #7f7f7f" d="M 560,550 A 10,10 0 0 0 550,540 L 550,550 z"/>
+    <rect style="fill: #7f7f7f" x="280" y="550" width="280" height="40"/>
+    <path style="fill: #7f7f7f" d="M 280,590 A 10,10 0 0 0 290,600 L 290,590 z"/>
+    <path style="fill: #7f7f7f" d="M 550,600 A 10,10 0 0 0 560,590 L 550,590 z"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="540" x2="550" y2="540"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="600" x2="550" y2="600"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 290,540 A 10,10 0 0 0 280,550"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 560,550 A 10,10 0 0 0 550,540"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="280" y1="550" x2="280" y2="590"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="560" y1="550" x2="560" y2="590"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 280,590 A 10,10 0 0 0 290,600"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 550,600 A 10,10 0 0 0 560,590"/>
+    <text font-size="33.8667" style="fill: #ffffff;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="580.283">
+      <tspan x="420" y="580.283">...</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffff55" x="290" y="620" width="260" height="120"/>
+    <path style="fill: #ffff55" d="M 290,620 A 10,10 0 0 0 280,630 L 290,630 z"/>
+    <path style="fill: #ffff55" d="M 560,630 A 10,10 0 0 0 550,620 L 550,630 z"/>
+    <rect style="fill: #ffff55" x="280" y="630" width="280" height="100"/>
+    <path style="fill: #ffff55" d="M 280,730 A 10,10 0 0 0 290,740 L 290,730 z"/>
+    <path style="fill: #ffff55" d="M 550,740 A 10,10 0 0 0 560,730 L 550,730 z"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="620" x2="550" y2="620"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="290" y1="740" x2="550" y2="740"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 290,620 A 10,10 0 0 0 280,630"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 560,630 A 10,10 0 0 0 550,620"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="280" y1="630" x2="280" y2="730"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" x1="560" y1="630" x2="560" y2="730"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 280,730 A 10,10 0 0 0 290,740"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #7f7f7f" d="M 550,740 A 10,10 0 0 0 560,730"/>
+    <text font-size="33.8667" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="690.283">
+      <tspan x="420" y="690.283">Stack (↑)</tspan>
+    </text>
+  </g>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="660" y="332.111">
+    <tspan x="660" y="332.111">Static</tspan>
+    <tspan x="660" y="367.389">allocation</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="660" y="434.061">
+    <tspan x="660" y="434.061">Dynamic</tspan>
+    <tspan x="660" y="469.339">allocation</tspan>
+    <tspan x="660" y="504.617">(new)</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="660" y="672.111">
+    <tspan x="660" y="672.111">Automatic</tspan>
+    <tspan x="660" y="707.389">allocation</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="0" y="614.472">
+    <tspan x="0" y="614.472">main()</tspan>
+    <tspan x="0" y="649.75">activation</tspan>
+    <tspan x="0" y="685.028">record</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="0" y="374.472">
+    <tspan x="0" y="374.472">fn1()</tspan>
+    <tspan x="0" y="409.75">activation</tspan>
+    <tspan x="0" y="445.028">record</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="0" y="134.472">
+    <tspan x="0" y="134.472">fn2()</tspan>
+    <tspan x="0" y="169.75">activation</tspan>
+    <tspan x="0" y="205.028">record</tspan>
+  </text>
+  <text font-size="33.8667" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="420" y="90.5583">
+    <tspan x="420" y="90.5583">Program memory</tspan>
+    <tspan x="420" y="132.892">(conceptual model)</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #7f7f7f" x1="282.928" y1="622.928" x2="-180" y2="50.3056"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 20; stroke: #7f7f7f" x1="282.928" y1="737.072" x2="-180" y2="761.222"/>
+</svg>

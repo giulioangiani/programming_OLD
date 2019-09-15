@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="16cm" height="12cm" viewBox="418 158 303 223" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="420" y="160" width="300" height="220"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x="420" y="160" width="300" height="220"/>
+  </g>
+  <g>
+    <rect style="fill: #ffff96" x="440" y="200" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="200" width="120" height="40"/>
+  </g>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="500" y="227.825">
+    <tspan x="500" y="227.825">"Jan"</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffff96" x="440" y="240" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="240" width="120" height="40"/>
+  </g>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="500" y="267.825">
+    <tspan x="500" y="267.825">"Feb"</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffff96" x="440" y="280" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="280" width="120" height="40"/>
+  </g>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="500" y="307.825">
+    <tspan x="500" y="307.825">"Mar"</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffff96" x="440" y="320" width="120" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="320" width="120" height="40"/>
+  </g>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="500" y="347.825">
+    <tspan x="500" y="347.825">...</tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="180">
+    <tspan x="480" y="180"></tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #000099;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="500" y="187.825">
+    <tspan x="500" y="187.825">months</tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #000099;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="227.825">
+    <tspan x="640" y="227.825">months[0]</tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #000099;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="267.825">
+    <tspan x="640" y="267.825">months[1]</tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #000099;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="307.825">
+    <tspan x="640" y="307.825">months[2]</tspan>
+  </text>
+</svg>

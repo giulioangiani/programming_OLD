@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="52.120cm" height="29.100cm" viewBox="-0.050 0.950 52.070 30.050"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<line x1="38.000" y1="14.000" x2="38.000" y2="20.000" stroke="#000000" stroke-width="0.300" />
+<image x="45.000" y="21.000"  width="6.142" height="9.000" xlink:href="conductor.jpg"/>
+<image x="38.000" y="1.000"  width="8.188" height="8.463" xlink:href="piano.png"/>
+<image x="4.272" y="14.000"  width="6.368" height="8.747" xlink:href="metronome.png"/>
+<rect x="11.200" y="4.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.200,4.975 A 0.200,0.200 0 0,0 11.000,5.175 "/>
+<path stroke="none" fill="#000099" d ="M 17.000,5.175 A 0.200,0.200 0 0,0 16.800,4.975 "/>
+<rect x="11.000" y="5.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.000,6.886 A 0.200,0.200 0 0,0 11.200,7.086 "/>
+<path stroke="none" fill="#000099" d ="M 16.800,7.086 A 0.200,0.200 0 0,0 17.000,6.886 "/>
+<line x1="11.200" y1="4.975" x2="16.800" y2="4.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="11.200" y1="7.086" x2="16.800" y2="7.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.200,4.975 A 0.200,0.200 0 0,0 11.000,5.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 17.000,5.175 A 0.200,0.200 0 0,0 16.800,4.975 "/>
+<line x1="11.000" y1="5.175" x2="11.000" y2="6.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="17.000" y1="5.175" x2="17.000" y2="6.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.000,6.886 A 0.200,0.200 0 0,0 11.200,7.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 16.800,7.086 A 0.200,0.200 0 0,0 17.000,6.886 "/>
+<text x="14.000" y="6.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+PC</text>
+<rect x="11.200" y="9.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.200,9.975 A 0.200,0.200 0 0,0 11.000,10.175 "/>
+<path stroke="none" fill="#000099" d ="M 17.000,10.175 A 0.200,0.200 0 0,0 16.800,9.975 "/>
+<rect x="11.000" y="10.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.000,11.886 A 0.200,0.200 0 0,0 11.200,12.086 "/>
+<path stroke="none" fill="#000099" d ="M 16.800,12.086 A 0.200,0.200 0 0,0 17.000,11.886 "/>
+<line x1="11.200" y1="9.975" x2="16.800" y2="9.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="11.200" y1="12.086" x2="16.800" y2="12.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.200,9.975 A 0.200,0.200 0 0,0 11.000,10.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 17.000,10.175 A 0.200,0.200 0 0,0 16.800,9.975 "/>
+<line x1="11.000" y1="10.175" x2="11.000" y2="11.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="17.000" y1="10.175" x2="17.000" y2="11.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.000,11.886 A 0.200,0.200 0 0,0 11.200,12.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 16.800,12.086 A 0.200,0.200 0 0,0 17.000,11.886 "/>
+<text x="14.000" y="11.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+IRR</text>
+<rect x="11.200" y="14.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.200,14.975 A 0.200,0.200 0 0,0 11.000,15.175 "/>
+<path stroke="none" fill="#000099" d ="M 17.000,15.175 A 0.200,0.200 0 0,0 16.800,14.975 "/>
+<rect x="11.000" y="15.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.000,16.886 A 0.200,0.200 0 0,0 11.200,17.086 "/>
+<path stroke="none" fill="#000099" d ="M 16.800,17.086 A 0.200,0.200 0 0,0 17.000,16.886 "/>
+<line x1="11.200" y1="14.975" x2="16.800" y2="14.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="11.200" y1="17.086" x2="16.800" y2="17.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.200,14.975 A 0.200,0.200 0 0,0 11.000,15.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 17.000,15.175 A 0.200,0.200 0 0,0 16.800,14.975 "/>
+<line x1="11.000" y1="15.175" x2="11.000" y2="16.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="17.000" y1="15.175" x2="17.000" y2="16.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.000,16.886 A 0.200,0.200 0 0,0 11.200,17.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 16.800,17.086 A 0.200,0.200 0 0,0 17.000,16.886 "/>
+<text x="14.000" y="16.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+IR</text>
+<path stroke="none" fill="#FFA500" stroke-width="0.050" d="M 10.333,20.000 L 15.667,20.000 C 16.403,20.000 17.000,20.448 17.000,21.000 C 17.000,21.552 16.403,22.000 15.667,22.000 L 10.333,22.000 C 9.597,22.000 9.000,21.552 9.000,21.000 C 9.000,20.448 9.597,20.000 10.333,20.000 "/>
+<path stroke="#000000" fill="none" stroke-width="0.050"  d="M 10.333,20.000 L 15.667,20.000 C 16.403,20.000 17.000,20.448 17.000,21.000 C 17.000,21.552 16.403,22.000 15.667,22.000 L 10.333,22.000 C 9.597,22.000 9.000,21.552 9.000,21.000 C 9.000,20.448 9.597,20.000 10.333,20.000 "/>
+<text x="13.000" y="21.353"  fill="#000000" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+Clock</text>
+<rect x="11.200" y="23.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.200,23.975 A 0.200,0.200 0 0,0 11.000,24.175 "/>
+<path stroke="none" fill="#000099" d ="M 17.000,24.175 A 0.200,0.200 0 0,0 16.800,23.975 "/>
+<rect x="11.000" y="24.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 11.000,25.886 A 0.200,0.200 0 0,0 11.200,26.086 "/>
+<path stroke="none" fill="#000099" d ="M 16.800,26.086 A 0.200,0.200 0 0,0 17.000,25.886 "/>
+<line x1="11.200" y1="23.975" x2="16.800" y2="23.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="11.200" y1="26.086" x2="16.800" y2="26.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.200,23.975 A 0.200,0.200 0 0,0 11.000,24.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 17.000,24.175 A 0.200,0.200 0 0,0 16.800,23.975 "/>
+<line x1="11.000" y1="24.175" x2="11.000" y2="25.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="17.000" y1="24.175" x2="17.000" y2="25.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 11.000,25.886 A 0.200,0.200 0 0,0 11.200,26.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 16.800,26.086 A 0.200,0.200 0 0,0 17.000,25.886 "/>
+<text x="14.000" y="25.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+DR</text>
+<line x1="17.000" y1="21.000" x2="21.000" y2="21.000" stroke="#000000" stroke-width="0.100" />
+<line x1="17.000" y1="6.031" x2="21.000" y2="6.000" stroke="#000000" stroke-width="0.100" />
+<line x1="17.000" y1="11.031" x2="21.000" y2="11.000" stroke="#000000" stroke-width="0.100" />
+<line x1="17.000" y1="16.031" x2="21.000" y2="16.000" stroke="#000000" stroke-width="0.100" />
+<line x1="17.000" y1="25.031" x2="21.000" y2="25.000" stroke="#000000" stroke-width="0.100" />
+<rect x="25.200" y="6.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.200,6.975 A 0.200,0.200 0 0,0 25.000,7.175 "/>
+<path stroke="none" fill="#000099" d ="M 31.000,7.175 A 0.200,0.200 0 0,0 30.800,6.975 "/>
+<rect x="25.000" y="7.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.000,8.886 A 0.200,0.200 0 0,0 25.200,9.086 "/>
+<path stroke="none" fill="#000099" d ="M 30.800,9.086 A 0.200,0.200 0 0,0 31.000,8.886 "/>
+<line x1="25.200" y1="6.975" x2="30.800" y2="6.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="25.200" y1="9.086" x2="30.800" y2="9.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.200,6.975 A 0.200,0.200 0 0,0 25.000,7.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 31.000,7.175 A 0.200,0.200 0 0,0 30.800,6.975 "/>
+<line x1="25.000" y1="7.175" x2="25.000" y2="8.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="31.000" y1="7.175" x2="31.000" y2="8.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.000,8.886 A 0.200,0.200 0 0,0 25.200,9.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 30.800,9.086 A 0.200,0.200 0 0,0 31.000,8.886 "/>
+<text x="28.000" y="8.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+SR</text>
+<rect x="25.200" y="9.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.200,9.975 A 0.200,0.200 0 0,0 25.000,10.175 "/>
+<path stroke="none" fill="#000099" d ="M 31.000,10.175 A 0.200,0.200 0 0,0 30.800,9.975 "/>
+<rect x="25.000" y="10.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.000,11.886 A 0.200,0.200 0 0,0 25.200,12.086 "/>
+<path stroke="none" fill="#000099" d ="M 30.800,12.086 A 0.200,0.200 0 0,0 31.000,11.886 "/>
+<line x1="25.200" y1="9.975" x2="30.800" y2="9.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="25.200" y1="12.086" x2="30.800" y2="12.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.200,9.975 A 0.200,0.200 0 0,0 25.000,10.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 31.000,10.175 A 0.200,0.200 0 0,0 30.800,9.975 "/>
+<line x1="25.000" y1="10.175" x2="25.000" y2="11.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="31.000" y1="10.175" x2="31.000" y2="11.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.000,11.886 A 0.200,0.200 0 0,0 25.200,12.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 30.800,12.086 A 0.200,0.200 0 0,0 31.000,11.886 "/>
+<text x="28.000" y="11.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+A</text>
+<rect x="25.200" y="12.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.200,12.975 A 0.200,0.200 0 0,0 25.000,13.175 "/>
+<path stroke="none" fill="#000099" d ="M 31.000,13.175 A 0.200,0.200 0 0,0 30.800,12.975 "/>
+<rect x="25.000" y="13.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.000,14.886 A 0.200,0.200 0 0,0 25.200,15.086 "/>
+<path stroke="none" fill="#000099" d ="M 30.800,15.086 A 0.200,0.200 0 0,0 31.000,14.886 "/>
+<line x1="25.200" y1="12.975" x2="30.800" y2="12.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="25.200" y1="15.086" x2="30.800" y2="15.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.200,12.975 A 0.200,0.200 0 0,0 25.000,13.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 31.000,13.175 A 0.200,0.200 0 0,0 30.800,12.975 "/>
+<line x1="25.000" y1="13.175" x2="25.000" y2="14.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="31.000" y1="13.175" x2="31.000" y2="14.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.000,14.886 A 0.200,0.200 0 0,0 25.200,15.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 30.800,15.086 A 0.200,0.200 0 0,0 31.000,14.886 "/>
+<text x="28.000" y="14.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+    B ...</text>
+<rect x="25.200" y="23.975" width="5.600" height="2.111" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.200,23.975 A 0.200,0.200 0 0,0 25.000,24.175 "/>
+<path stroke="none" fill="#000099" d ="M 31.000,24.175 A 0.200,0.200 0 0,0 30.800,23.975 "/>
+<rect x="25.000" y="24.175" width="6.000" height="1.711" fill="#000099" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#000099" d ="M 25.000,25.886 A 0.200,0.200 0 0,0 25.200,26.086 "/>
+<path stroke="none" fill="#000099" d ="M 30.800,26.086 A 0.200,0.200 0 0,0 31.000,25.886 "/>
+<line x1="25.200" y1="23.975" x2="30.800" y2="23.975" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="25.200" y1="26.086" x2="30.800" y2="26.086" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.200,23.975 A 0.200,0.200 0 0,0 25.000,24.175 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 31.000,24.175 A 0.200,0.200 0 0,0 30.800,23.975 "/>
+<line x1="25.000" y1="24.175" x2="25.000" y2="25.886" stroke="#7F7F7F" stroke-width="0.100" />
+<line x1="31.000" y1="24.175" x2="31.000" y2="25.886" stroke="#7F7F7F" stroke-width="0.100" />
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 25.000,25.886 A 0.200,0.200 0 0,0 25.200,26.086 "/>
+<path stroke="#7F7F7F" fill="none" stroke-width="0.100"  d ="M 30.800,26.086 A 0.200,0.200 0 0,0 31.000,25.886 "/>
+<text x="28.000" y="25.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+AR</text>
+<line x1="21.000" y1="8.000" x2="25.000" y2="8.031" stroke="#000000" stroke-width="0.100" />
+<line x1="21.000" y1="11.000" x2="25.000" y2="11.031" stroke="#000000" stroke-width="0.100" />
+<line x1="21.000" y1="14.000" x2="25.000" y2="14.031" stroke="#000000" stroke-width="0.100" />
+<line x1="21.000" y1="25.000" x2="25.000" y2="25.031" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#AA0000" stroke="none" stroke-width="0.050" points="36.000,7.000 44.000,11.000 36.000,15.000 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.050"  points="36.000,7.000 44.000,11.000 36.000,15.000 "/>
+<text x="14.000" y="8.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Program Counter</text>
+<text x="14.000" y="13.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Interrupt Request Reg</text>
+<text x="14.000" y="18.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Instruction Reg</text>
+<text x="14.000" y="27.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Data Reg</text>
+<text x="28.000" y="27.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Addr Reg</text>
+<text x="28.000" y="16.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Operand Regs</text>
+<text x="40.000" y="11.391"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+ALU</text>
+<text x="28.000" y="6.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Status Reg</text>
+<line x1="21.000" y1="21.000" x2="32.000" y2="21.031" stroke="#000000" stroke-width="0.300" />
+<line x1="31.000" y1="8.031" x2="36.000" y2="8.000" stroke="#000000" stroke-width="0.100" />
+<line x1="31.000" y1="11.031" x2="36.000" y2="11.000" stroke="#000000" stroke-width="0.100" />
+<line x1="31.000" y1="14.031" x2="36.000" y2="14.000" stroke="#000000" stroke-width="0.100" />
+<rect x="32.200" y="20.000" width="13.600" height="2.061" fill="#005500" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#005500" d ="M 32.200,20.000 A 0.200,0.200 0 0,0 32.000,20.200 "/>
+<path stroke="none" fill="#005500" d ="M 46.000,20.200 A 0.200,0.200 0 0,0 45.800,20.000 "/>
+<rect x="32.000" y="20.200" width="14.000" height="1.661" fill="#005500" stroke="none" stroke-width="0"/>
+<path stroke="none" fill="#005500" d ="M 32.000,21.861 A 0.200,0.200 0 0,0 32.200,22.061 "/>
+<path stroke="none" fill="#005500" d ="M 45.800,22.061 A 0.200,0.200 0 0,0 46.000,21.861 "/>
+<line x1="32.200" y1="20.000" x2="45.800" y2="20.000" stroke="#000000" stroke-width="0.050" />
+<line x1="32.200" y1="22.061" x2="45.800" y2="22.061" stroke="#000000" stroke-width="0.050" />
+<path stroke="#000000" fill="none" stroke-width="0.050"  d ="M 32.200,20.000 A 0.200,0.200 0 0,0 32.000,20.200 "/>
+<path stroke="#000000" fill="none" stroke-width="0.050"  d ="M 46.000,20.200 A 0.200,0.200 0 0,0 45.800,20.000 "/>
+<line x1="32.000" y1="20.200" x2="32.000" y2="21.861" stroke="#000000" stroke-width="0.050" />
+<line x1="46.000" y1="20.200" x2="46.000" y2="21.861" stroke="#000000" stroke-width="0.050" />
+<path stroke="#000000" fill="none" stroke-width="0.050"  d ="M 32.000,21.861 A 0.200,0.200 0 0,0 32.200,22.061 "/>
+<path stroke="#000000" fill="none" stroke-width="0.050"  d ="M 45.800,22.061 A 0.200,0.200 0 0,0 46.000,21.861 "/>
+<text x="39.000" y="21.375"  fill="#FFFFFF" text-anchor="middle" font-size="1.41" font-family="sans" font-style="normal" font-weight="400">
+CU</text>
+<line x1="9.099" y1="3.620" x2="11.059" y2="5.034" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.50,0.50"/>
+<line x1="8.903" y1="26.068" x2="11.000" y2="25.031" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.50,0.50"/>
+<line x1="33.097" y1="26.068" x2="31.000" y2="25.031" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.50,0.50"/>
+<line x1="43.689" y1="19.082" x2="42.500" y2="20.000" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.50,0.50"/>
+<line x1="32.270" y1="3.546" x2="30.941" y2="7.034" stroke="#000000" stroke-width="0.100" stroke-dasharray="0.50,0.50"/>
+<text x="39.000" y="23.341"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Control Unit</text>
+<text x="47.000" y="9.724"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Arithmetic</text>
+<text x="47.000" y="10.959"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Logic Unit</text>
+<line x1="21.000" y1="6.000" x2="21.000" y2="25.000" stroke="#000000" stroke-width="0.300" />
+<path stroke="none" fill="#D8E5E5" stroke-width="0.100" d="M 3.417,1.000 L 11.083,1.000 C 12.142,1.000 13.000,1.575 13.000,2.285 C 13.000,2.994 12.142,3.569 11.083,3.569 L 3.417,3.569 C 2.358,3.569 1.500,2.994 1.500,2.285 C 1.500,1.575 2.358,1.000 3.417,1.000 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100" stroke-dasharray="0.50,0.50" d="M 3.417,1.000 L 11.083,1.000 C 12.142,1.000 13.000,1.575 13.000,2.285 C 13.000,2.994 12.142,3.569 11.083,3.569 L 3.417,3.569 C 2.358,3.569 1.500,2.994 1.500,2.285 C 1.500,1.575 2.358,1.000 3.417,1.000 "/>
+<text x="7.250" y="1.976"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Address o next</text>
+<text x="7.250" y="3.211"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+instruction</text>
+<path stroke="none" fill="#D8E5E5" stroke-width="0.100" d="M 28.917,1.000 L 36.583,1.000 C 37.642,1.000 38.500,1.575 38.500,2.285 C 38.500,2.994 37.642,3.569 36.583,3.569 L 28.917,3.569 C 27.858,3.569 27.000,2.994 27.000,2.285 C 27.000,1.575 27.858,1.000 28.917,1.000 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100" stroke-dasharray="0.50,0.50" d="M 28.917,1.000 L 36.583,1.000 C 37.642,1.000 38.500,1.575 38.500,2.285 C 38.500,2.994 37.642,3.569 36.583,3.569 L 28.917,3.569 C 27.858,3.569 27.000,2.994 27.000,2.285 C 27.000,1.575 27.858,1.000 28.917,1.000 "/>
+<text x="32.750" y="1.976"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Carry, Zero,</text>
+<text x="32.750" y="3.211"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Sign, Overflow</text>
+<path stroke="none" fill="#D8E5E5" stroke-width="0.100" d="M 1.667,26.000 L 8.333,26.000 C 9.254,26.000 10.000,26.895 10.000,28.000 C 10.000,29.105 9.254,30.000 8.333,30.000 L 1.667,30.000 C 0.746,30.000 0.000,29.105 0.000,28.000 C 0.000,26.895 0.746,26.000 1.667,26.000 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100" stroke-dasharray="0.50,0.50" d="M 1.667,26.000 L 8.333,26.000 C 9.254,26.000 10.000,26.895 10.000,28.000 C 10.000,29.105 9.254,30.000 8.333,30.000 L 1.667,30.000 C 0.746,30.000 0.000,29.105 0.000,28.000 C 0.000,26.895 0.746,26.000 1.667,26.000 "/>
+<text x="5.000" y="27.074"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Word to</text>
+<text x="5.000" y="28.309"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+read or write</text>
+<text x="5.000" y="29.543"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+to memory</text>
+<path stroke="none" fill="#D8E5E5" stroke-width="0.100" d="M 33.667,26.000 L 40.333,26.000 C 41.254,26.000 42.000,26.895 42.000,28.000 C 42.000,29.105 41.254,30.000 40.333,30.000 L 33.667,30.000 C 32.746,30.000 32.000,29.105 32.000,28.000 C 32.000,26.895 32.746,26.000 33.667,26.000 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100" stroke-dasharray="0.50,0.50" d="M 33.667,26.000 L 40.333,26.000 C 41.254,26.000 42.000,26.895 42.000,28.000 C 42.000,29.105 41.254,30.000 40.333,30.000 L 33.667,30.000 C 32.746,30.000 32.000,29.105 32.000,28.000 C 32.000,26.895 32.746,26.000 33.667,26.000 "/>
+<text x="37.000" y="27.074"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Memory</text>
+<text x="37.000" y="28.309"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+address to</text>
+<text x="37.000" y="29.543"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+read or write</text>
+<path stroke="none" fill="#D8E5E5" stroke-width="0.100" d="M 43.670,14.000 L 50.350,14.000 C 51.272,14.000 52.020,15.128 52.020,16.519 C 52.020,17.911 51.272,19.039 50.350,19.039 L 43.670,19.039 C 42.748,19.039 42.000,17.911 42.000,16.519 C 42.000,15.128 42.748,14.000 43.670,14.000 "/>
+<path stroke="#000000" fill="none" stroke-width="0.100" stroke-dasharray="0.50,0.50" d="M 43.670,14.000 L 50.350,14.000 C 51.272,14.000 52.020,15.128 52.020,16.519 C 52.020,17.911 51.272,19.039 50.350,19.039 L 43.670,19.039 C 42.748,19.039 42.000,17.911 42.000,16.519 C 42.000,15.128 42.748,14.000 43.670,14.000 "/>
+<text x="47.010" y="14.976"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Fetch</text>
+<text x="47.010" y="16.211"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Decode</text>
+<text x="47.010" y="17.445"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Manage exec</text>
+<text x="47.010" y="18.680"  fill="#000000" text-anchor="middle" font-size="1.23" font-family="sans" font-style="normal" font-weight="400">
+Store results</text>
+</svg>

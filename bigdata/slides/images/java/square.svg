@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="579 179 146 190" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #90ee90" x="601.525" y="180" width="100.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="601.525" y="180" width="100.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="651.675" y="199">Rectangle</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="614.725" y="260" width="73.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="614.725" y="260" width="73.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="651.675" y="279">Square</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="580" y="340" width="143.35" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="580" y="340" width="143.35" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="651.675" y="359">ColoredSquare</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="651.675,227.243 651.675,226.007 651.675,259 651.675,260 "/>
+    <polygon style="fill: #ffffff" points="659.675,227.243 651.675,211.243 643.675,227.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="659.675,227.243 651.675,211.243 643.675,227.243 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="651.675,307.243 651.675,306.007 651.675,337.993 651.675,338.993 "/>
+    <polygon style="fill: #ffffff" points="659.675,307.243 651.675,291.243 643.675,307.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="659.675,307.243 651.675,291.243 643.675,307.243 "/>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   viewBox="0 0 414 255"
+   id="svg2">
+  <defs
+     id="defs5" />
+  <g
+     transform="translate(4.281739,3.710317)"
+     id="g2793">
+    <g
+       id="g2788">
+      <rect
+         width="378.45239"
+         height="225.99207"
+         rx="45.198414"
+         ry="45.198414"
+         x="13.492064"
+         y="10.793651"
+         style="opacity:1;fill:#0012ff;fill-opacity:0.1604938;fill-rule:evenodd;stroke:black;stroke-width:3.125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2776" />
+      <text
+         x="202.1167"
+         y="58.087303"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         id="text2760"
+         xml:space="preserve"><tspan
+           x="202.1167"
+           y="58.087303"
+           style="font-size:32px"
+           id="tspan2762">NP Problems</tspan></text>
+    </g>
+    <g
+       transform="translate(2.02381,4.047619)"
+       id="g2778">
+      <path
+         d="M 396.66667 122.77778 A 184.16667 107.2619 0 1 1  28.333328,122.77778 A 184.16667 107.2619 0 1 1  396.66667 122.77778 z"
+         transform="matrix(0.539339,0,0,0.34254,7.438878,73.70833)"
+         style="opacity:1;fill:#00ff1e;fill-opacity:0.1604938;fill-rule:evenodd;stroke:black;stroke-width:3.125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2772" />
+      <text
+         x="121.58553"
+         y="124.21385"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         id="text2764"
+         xml:space="preserve"><tspan
+           x="121.58553"
+           y="124.21385"
+           style="font-size:24px"
+           id="tspan2766">P Problems</tspan></text>
+    </g>
+    <g
+       transform="translate(8.769841,0.674603)"
+       id="g2783">
+      <path
+         d="M 396.66667 122.77778 A 184.16667 107.2619 0 1 1  28.333328,122.77778 A 184.16667 107.2619 0 1 1  396.66667 122.77778 z"
+         transform="matrix(0.539339,0,0,0.34254,146.8538,137.9927)"
+         style="opacity:1;fill:#ff2400;fill-opacity:0.1604938;fill-rule:evenodd;stroke:black;stroke-width:3.125;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2774" />
+      <text
+         x="261.05319"
+         y="186.40056"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+         id="text2768"
+         xml:space="preserve"><tspan
+           x="261.05319"
+           y="186.40056"
+           style="font-size:24px"
+           id="tspan2770">NP Complete</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="68cm" height="19cm" viewBox="116 97 1351 365" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <ellipse style="fill: #fff9d9; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 20; stroke: #eedd82" cx="340" cy="280" rx="200" ry="180"/>
+    <ellipse style="fill: #fff9d9; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 20; stroke: #eedd82" cx="600" cy="280" rx="200" ry="180"/>
+    <ellipse style="fill: #fff9d9; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 20; stroke: #eedd82" cx="860" cy="280" rx="200" ry="180"/>
+    <ellipse style="fill: #fff9d9; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 20; stroke: #eedd82" cx="1120" cy="280" rx="200" ry="180"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #0000ff" x1="120" y1="340" x2="1378.29" y2="340"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #0000ff" fill-rule="evenodd" points="1393.29,340 1373.29,350 1378.29,340 1373.29,330 "/>
+    </g>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="365.875">
+      <tspan x="300" y="365.875">1960</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="365.875">
+      <tspan x="500" y="365.875">1970</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="365.875">
+      <tspan x="700" y="365.875">1980</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="365.875">
+      <tspan x="900" y="365.875">1990</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="365.875">
+      <tspan x="1100" y="365.875">2000</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="365.875">
+      <tspan x="1300" y="365.875">2010</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="300">
+      <tspan x="240" y="300">• Fortran</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="260">
+      <tspan x="260" y="260">• Algol</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="280" y="180">
+      <tspan x="280" y="180">• Cobol</tspan>
+    </text>
+    <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="300" cy="340" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="500" cy="340" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="700" cy="340" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="900" cy="340" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="1100" cy="340" rx="10" ry="10"/>
+    <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="1300" cy="340" rx="10" ry="10"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="300">
+      <tspan x="380" y="300">• Basic</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="260">
+      <tspan x="440" y="260">• Simula</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="300">
+      <tspan x="500" y="300">• Pascal</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="260">
+      <tspan x="760" y="260">• C++</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="220">
+      <tspan x="820" y="220">• Eiffel</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="840" y="180">
+      <tspan x="840" y="180">• Perl</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="920" y="300">
+      <tspan x="920" y="300">• Python</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1100" y="220">
+      <tspan x="1100" y="220">• C#</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1280" y="300">
+      <tspan x="1280" y="300">• Go</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="420">
+      <tspan x="200" y="420">Early systems</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="420">
+      <tspan x="500" y="420">Unix, 4004</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="420">
+      <tspan x="700" y="420">PC, GUI</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="420">
+      <tspan x="1000" y="420">Internet</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1200" y="420">
+      <tspan x="1200" y="420">Mobile</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="220">
+      <tspan x="260" y="220">• Lisp</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="540" y="220">
+      <tspan x="540" y="220">• C</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="180">
+      <tspan x="540" y="180">• Prolog, Smalltalk</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="760" y="300">
+      <tspan x="760" y="300">• Ada, ObjC</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1000" y="260">
+      <tspan x="1000" y="260">• Java, JS, PHP</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="140">
+      <tspan x="900" y="140">• Haskell</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="220">
+      <tspan x="1300" y="220">• Rust</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1380" y="260">
+      <tspan x="1380" y="260">• Swift</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="1000" y="180">
+      <tspan x="1000" y="180">• R</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="220">
+      <tspan x="1000" y="220">• Ruby</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="920" y="260">
+      <tspan x="920" y="260">• VB</tspan>
+    </text>
+  </g>
+</svg>

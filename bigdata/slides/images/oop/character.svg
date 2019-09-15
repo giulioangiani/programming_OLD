@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="179 39 176 271" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #eedd82" x="220" y="160" width="98.85" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="160" width="98.85" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="269.425" y="179">Character</text>
+    <rect style="fill: #eedd82" x="220" y="188" width="98.85" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="188" width="98.85" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="202">+move()</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="310" y="280" width="44" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="310" y="280" width="44" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="332" y="299">Ball</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="180" y="280" width="62.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="180" y="280" width="62.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="211.35" y="299">Ghost</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="269.425,226.236 269.425,251.496 332,251.496 332,278.993 "/>
+    <polygon style="fill: #ffffff" points="277.425,226.236 269.425,210.236 261.425,226.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="277.425,226.236 269.425,210.236 261.425,226.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="269.425,226.236 269.425,251.496 211.35,251.496 211.35,278.993 "/>
+    <polygon style="fill: #ffffff" points="277.425,226.236 269.425,210.236 261.425,226.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="277.425,226.236 269.425,210.236 261.425,226.236 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="225.924" y="40" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="225.924" y="40" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="269.424" y="59">Arena</text>
+    <rect style="fill: #90ee90" x="225.924" y="68" width="87" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="225.924" y="68" width="87" height="8"/>
+    <rect style="fill: #90ee90" x="225.924" y="76" width="87" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="225.924" y="76" width="87" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="228.924" y="90">+moveAll()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="269.424,122.179 269.424,135 269.425,135 269.425,158.994 "/>
+    <polygon style="fill: #000000" points="269.424,97.0071 274.224,111.007 269.424,125.007 264.624,111.007 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="269.424,97.0071 274.224,111.007 269.424,125.007 264.624,111.007 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="269.425" y="131"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="280.424" y="109.007"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="273.425" y="154.994">*</text>
+  </g>
+</svg>

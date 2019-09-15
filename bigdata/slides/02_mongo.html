@@ -1,0 +1,891 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Big Data e Business Intelligence</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/aferrari.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="images/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/db/overflow.png"></figure>
+  <hgroup>
+    <h2>Database<br>e gestione dei dati</h2>
+    <p>Giulio Angiani - UniPr</p>
+  </hgroup>
+</slide>
+
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="images/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Sistema informativo</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Database NoSQL</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/mk_nosql_022418.png">
+        
+      </figure><ul>
+<li>NoSQL<ul>
+<li>Not Only SQL</li>
+<li>Paradigma non relazionale</li>
+</ul>
+</li>
+<li>Varie tipologie<ul>
+<li>DB Document-oriented
+     <ul>
+        <li><font size=4>XML databases</font>
+    </ul></li>
+<li>Graph databases</li>
+<li>DB Key-Value</li>
+<li>Wide-column stores</li>
+</ul>
+</li>
+<li>Esempi DB NoSQL<ul>
+<li>MongoDB, Cassandra, HBase, Neo4j</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Database NoSQL</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/mk_nosql_022418.png">
+        
+      </figure><p>Caratteristiche:</p>
+<ul>
+<li>Flessibilità</li>
+<li>Scalabilità</li>
+<li>Elevate prestazioni</li>
+<li>Funzionalità alta</li>
+</ul>
+<p>Vantaggi:</p>
+<ul>
+<li>analisi di dati semi-strutturati</li>
+<li>bassa latenza</li>
+<li>multi-istanza</li>
+<li>quando abbiamo dati eterogenei e senza uno schema</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/mongologo.png">
+        
+      </figure><ul>
+<li>database orientato ai documenti</li>
+<li>pensare in JSON</li>
+<li>documenti raggruppati in collezioni (anche non omogenei)</li>
+<li>NB: <b>non esiste un concetto analogo al vincolo di integrità referenziale</b></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>lanciamo l'interprete a riga di comando</p>
+<pre class="prettyprint" data-lang="SHELL"><code>$ mongo
+MongoDB shell version v4.2.0
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&amp;gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d6382e28-ca58-41af-b237-a75e52c6993e") }
+MongoDB server version: 4.2.0
+&gt;
+</code></pre>
+<pre class="prettyprint" data-lang="Mongo"><code>&gt; show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+unipr   0.000GB
+&gt; use unipr
+switched to db unipr
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Inserimento</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Due metodi</p>
+<ul>
+<li>db.collection.insertOne()</li>
+<li>db.collection.insertMany()
+<br><small>(la collection viene creata automaticamente se non esiste. No Create!)</small></li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.insertOne({
+    "cognome": "Angiani",
+    "nome": "Giulio",
+    "eta": 46,
+    "email": "giulio.angiani@unipr.it",
+    "ruolo": "Docente esterno"
+})
+{
+    "acknowledged" : true,
+    "insertedId" : ObjectId("5d612377e503102a50f614ea")
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Inserimento</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.insertMany([
+    { "cognome": "Mordonini", "nome": "Monica", "email": "monica.mordonini@unipr.it",
+      "ufficio": { "palazzina" : 1,
+                   "stanza": 102,
+                   "piano": 1,
+                   "telefono": "+39 0521 905735"
+                },
+      "ruolo": "Ricercatrice"
+    },
+    { "cognome": "Tomaiuolo", "nome": "Michele", "age": 43, 
+      "ruolo": "Ricercatore", "email": "michele.tomaiuolo@unipr.it",
+      "ufficio" : { "telefono": "+39 0521 905708" }
+    }
+])
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>senza filtro: come <i>select * from teachers</i></li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; show collections
+teachers
+&gt; db.teachers.find()
+{ "_id" : ObjectId("5d612377e503102a50f614ea"), "familyname" : "Angiani", "name" : "Giulio", 
+"age" : 46, "email" : "giulio.angiani@unipr.it" }
+{ "_id" : ObjectId("5d6126d3e503102a50f614eb"), "cognome" : "Mordonini", "nome" : "Monica", 
+"email" : "monica.mordonini@unipr.it", "ufficio" : { "palazzina" : 1, "stanza" : 102, 
+"piano" : 1, "telefono" : "+39 0521 905735" }, "ruolo" : "Ricercatrice" }
+{ "_id" : ObjectId("5d6126d3e503102a50f614ec"), "cognome" : "Tomaiuolo", "nome" : "Michele", 
+"age" : 43, "email" : "michele.tomaiuolo@unipr.it", "ruolo" : "Ricercatore", 
+"ufficio" : { "telefono" : "+39 0521 905708" } }
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>con filtro: come <i>select * from teachers where name = 'Giulio' </i></li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; show collections
+teachers
+&gt; db.teachers.find({"name": "Giulio"})
+{ "_id" : ObjectId("5d612377e503102a50f614ea"), "familyname" : "Angiani", "name" : "Giulio", 
+"age" : 46, "email" : "giulio.angiani@unipr.it" }
+
+&gt; db.teachers.find({"name": "Giulio"}).pretty()
+{
+    "_id" : ObjectId("5d612377e503102a50f614ea"),
+    "familyname" : "Angiani",
+    "name" : "Giulio",
+    "age" : 46,
+    "email" : "giulio.angiani@unipr.it"
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>filtro annidato (in SQL solo con join o query nidificate)</li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.find({"ufficio.palazzina": 1 }).pretty()
+{
+    "_id" : ObjectId("5d6126d3e503102a50f614eb"),
+    "cognome" : "Mordonini",
+    "nome" : "Monica",
+    "email" : "monica.mordonini@unipr.it",
+    "ufficio" : {
+        "palazzina" : 1,
+        "stanza" : 102,
+        "piano" : 1,
+        "telefono" : "+39 0521 905735"
+    },
+    "ruolo" : "Ricercatrice"
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>filtro con regexp (in SQL si userebbe like '%9057%')</li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.find({"ufficio.telefono": /9057/ })
+{ "_id" : ObjectId("5d6126d3e503102a50f614eb"), "cognome" : "Mordonini", "nome" : "Monica", 
+"email" : "monica.mordonini@unipr.it", "ufficio" : { "palazzina" : 1, "stanza" : 102, 
+"piano" : 1, "telefono" : "+39 0521 905735" }, "ruolo" : "Ricercatrice" }
+{ "_id" : ObjectId("5d6126d3e503102a50f614ec"), "cognome" : "Tomaiuolo", "nome" : "Michele", 
+"age" : 43, "email" : "michele.tomaiuolo@unipr.it", "ruolo" : "Ricercatore", 
+"ufficio" : { "telefono" : "+39 0521 905708" } }
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>filtro con più clausole</li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.find({"ruolo": /^Ricerc/ ,  age : {$lt: 45}}).pretty()
+&gt; db.teachers.find({$and : [{"ruolo": /^Ricerc/ },  {age : {$lt: 45}}]} ).pretty()
+{
+    "_id" : ObjectId("5d6126d3e503102a50f614ec"),
+    "cognome" : "Tomaiuolo",
+    "nome" : "Michele",
+    "age" : 43,
+    "email" : "michele.tomaiuolo@unipr.it",
+    "ruolo" : "Ricercatore",
+    "ufficio" : {
+        "telefono" : "+39 0521 905708"
+    }
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>selezione campi principali e annidati</li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.find( {$and : [{"ruolo": /^Ricerc/ },  {age : {$lt: 45}}]} , 
+                    {"nome" : 1, "cognome" : 1, "age": 1, _id: 0} 
+                  ).pretty()
+{ "cognome" : "Tomaiuolo", "nome" : "Michele", "age" : 43 }
+
+&gt; db.teachers.find( {$and : [{"ruolo": /^Ricerc/ },  {age : {$lt: 45}}]} , 
+                    {"nome" : 1, "cognome" : 1, "age": 1, _id: 0, 
+                     "ufficio.telefono" : 1} ).pretty()
+{
+    "cognome" : "Tomaiuolo",
+    "nome" : "Michele",
+    "age" : 43,
+    "ufficio" : {
+        "telefono" : "+39 0521 905708"
+    }
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Ricerca</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>selezione campi non esistenti (principali e annidati)</li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.find( {$and : [{"ruolo": /^Ricerc/ },  {age : {$lt: 45}}]} , 
+                    {"nome" : 1, "cognome" : 1, "age": 1, _id: 0, altezza: 1,
+                     "ufficio.palazzina" : 1} ).pretty()
+{
+    "cognome" : "Tomaiuolo",
+    "nome" : "Michele",
+    "age" : 43,
+    "ufficio" : {}
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Update</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Tre metodi</p>
+<ul>
+<li>db.collection.updateOne(&lt;filter&gt;, &lt;update&gt;, &lt;options&gt;)</li>
+<li>db.collection.updateMany(&lt;filter&gt;, &lt;update&gt;, &lt;options&gt;)</li>
+<li>db.collection.replaceOne(&lt;filter&gt;, &lt;update&gt;, &lt;options&gt;)</li>
+</ul>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Update</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Esempio</p>
+<ul>
+<li>in SQL sarebbe "update teachers set age=47 where cognome = 'Angiani'"</li>
+</ul>
+<pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.updateOne(
+   { cognome: "Angiani" },
+   { $set: { "eta": "47" } }
+)
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Usiamo MongoDB : Update</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="MONGO"><code>&gt; db.teachers.find({"cognome": "Angiani"}).pretty()
+{
+    "_id" : ObjectId("5d7797b0b47376d19599cba4"),
+    "cognome" : "Angiani",
+    "nome" : "Giulio",
+    "eta" : 47,
+    "email" : "giulio.angiani@unipr.it",
+    "ruolo" : "Docente esterno"
+}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://docs.mongodb.com/manual/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Installazione:</p>
+<pre class="prettyprint" data-lang="SHELL"><code>$ sudo pip3 install pymongo
+# Collecting pymongo
+# Downloading https://..../pymongo-3.9.0-cp36-cp36m-manylinux1_x86_64.whl (446kB)
+# 100% |████████████████████████████████| 450kB 2.0MB/s 
+# Installing collected packages: pymongo
+# Successfully installed pymongo-3.9.0...
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Accesso al database</p>
+<pre class="prettyprint" data-lang="Python"><code>from pymongo import MongoClient
+import pprint
+client = MongoClient()
+db = client.unipr
+collection = db.teachers # or collection = db["teachers"]
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Query</p>
+<pre class="prettyprint" data-lang="Python"><code># primo elemento trovato
+t = collection.find_one()
+pprint.pprint(t)
+</code></pre>
+<pre class="prettyprint" data-lang="OUTPUT"><code>{u'_id': ObjectId('5d779a009a5f39e0ea5c1bbf'),
+ u'cognome': u'Angiani',
+ u'email': u'giulio.angiani@unipr.it',
+ u'eta': u'47',
+ u'nome': u'Giulio',
+ u'ruolo': u'Docente esterno'}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Query</p>
+<pre class="prettyprint" data-lang="Python"><code># filtro
+t = collection.find_one({"cognome": "Tomaiuolo"})
+pprint.pprint(t)
+</code></pre>
+<pre class="prettyprint" data-lang="OUTPUT"><code>{u'_id': ObjectId('5d779a009a5f39e0ea5c1bc1'),
+ u'age': 43.0,
+ u'cognome': u'Tomaiuolo',
+ u'email': u'michele.tomaiuolo@unipr.it',
+ u'nome': u'Michele',
+ u'ruolo': u'Ricercatore',
+ u'ufficio': {u'telefono': u'+39 0521 905708'}}
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Query</p>
+<pre class="prettyprint" data-lang="Python"><code>res = collection.find() # resituisce un oggetto pymongo.cursor.Cursor; Va iterato...
+for t in res:
+    print(t.get('cognome'), t.get('nome'), t.get('email'), t.get("eta"))
+</code></pre>
+<pre class="prettyprint" data-lang="OUTPUT"><code>(u'Angiani', u'Giulio', u'giulio.angiani@unipr.it', u'47')
+(u'Tomaiuolo', u'Michele', u'michele.tomaiuolo@unipr.it', 43.0)
+(u'Mordonini', u'Monica', u'monica.mordonini@unipr.it', None)
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Query con filtro e ordinamento</p>
+<pre class="prettyprint" data-lang="Python"><code>res = collection.find().sort("nome", 1)  # nota: 1 asc [default], -1 desc 
+for t in res:
+    print(t.get('cognome'), t.get('nome'), t.get('email'), t.get("eta"))
+</code></pre>
+<pre class="prettyprint" data-lang="OUTPUT"><code>(u'Angiani', u'Giulio', u'giulio.angiani@unipr.it', u'47')
+(u'Tomaiuolo', u'Michele', u'michele.tomaiuolo@unipr.it', 43.0)
+(u'Mordonini', u'Monica', u'monica.mordonini@unipr.it', None)
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Inserimento</p>
+<pre class="prettyprint" data-lang="Python"><code>doc = {
+    "cognome": "Cagnoni",
+    "nome": "Stefano",
+    "eta" : 58,
+    "ruolo": "Professore Associato",
+    "email": "stefano.cagnoni@unipr.it"
+}
+# inserisce
+id = collection.insert_one(doc) 
+# inserisce e restituisce l'id dell'elemento inserito
+id = collection.insert_one(doc).inserted_id
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Python e MongoDB</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>Query con filtro e ordinamento</p>
+<pre class="prettyprint" data-lang="Python"><code>res = collection.find().sort("nome", -1)  # nota: 1 asc [default], -1 desc 
+for t in res:
+    print(t.get('cognome'), t.get('nome'), t.get('email'), t.get("eta"))
+</code></pre>
+<pre class="prettyprint" data-lang="OUTPUT"><code>(u'Cagnoni', u'Stefano', u'stefano.cagnoni@unipr.it', 58)
+(u'Mordonini', u'Monica', u'monica.mordonini@unipr.it', None)
+(u'Tomaiuolo', u'Michele', u'michele.tomaiuolo@unipr.it', 43.0)
+(u'Angiani', u'Giulio', u'giulio.angiani@unipr.it', u'47')
+</code></pre>
+<div style='position:absolute; bottom:20px; font-size:0.7em'>ref: https://api.mongodb.com/python/current/</div></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="images/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Applicazioni</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Applicazione pratica</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/mongo_dativari.jpg">
+        
+      </figure><ul>
+<li>Molti servizi utilizzano dati in formato JSON</li>
+<li>Formato dati spesso diverso</li>
+<li>Dati non normalizzati</li>
+</ul>
+<p>E' sufficiente che siano in formato JSON</p>
+<ul>
+<li>Nessuna trasformazione anche se provenienti sorgenti diverse</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Applicazione pratica - Twitter</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/mongo_grafo.png">
+        
+      </figure><p>Ricostruire relazioni su Twitter</p>
+<ul>
+<li>Nodi =&gt; Utenti/Tweet</li>
+<li>Archi =&gt; Relazione di following/Retweeting</li>
+</ul>
+<p>esempio tweet:</p>
+<pre class="prettyprint" data-lang="JSON"><code>{u'contributors': None,
+ u'coordinates': None,
+ u'created_at': u'Sun Sep 15 16:29:55 +0000 2019',
+ u'entities': {u'hashtags': [{u'indices': [20, 33],
+                              u'text': u'PresidentPAB'}],
+               u'symbols': [],
+               u'urls': [],
+               u'user_mentions': [{u'id': 462288600,
+                                   u'id_str': u'462288600',
+                                   u'indices': [3, 18],
+                                   u'name': u'Linda Childers',
+                                   u'screen_name': u'lindarchilders'}]},
+ u'favorite_count': 0,
+ u'favorited': False,
+ u'geo': None,
+ u'id': 1173272747037925376,
+ u'id_str': u'1173272747037925376',
+ u'in_reply_to_screen_name': None,
+[...]
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Applicazione pratica - Twitter</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Dati recuperati direttamente in formato JSON</li>
+</ul>
+<pre class="prettyprint" data-lang="Python"><code>d = {
+    "consumer_key": "iIkJ52sadasNR2ZX1RWq",
+    "consumer_secret": "YZ9ti7sdsqQFu4EfdfaasB6HaEjYDpBhNr6PdKMITfMs5",
+    "access_token": "22516223340-xcQz8BuA7XdLyfgfasdsfa334N8D4BwrfDHUjFTWQ",
+    "access_token_secret": "4B0XuPZtpMhdfsd455SUqjeUawI2h49ihl27GUTHum8ON2"
+}
+
+auth = OAuthHandler(d["consumer_key"], d['consumer_secret'])
+auth.set_access_token(d['access_token'], d['access_token_secret'])
+api = API(auth)
+tweets = api.search(q="Dorian", count=100)
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Applicazione pratica - Twitter</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>ed inseriti in DB Mongo</li>
+</ul>
+<pre class="prettyprint" data-lang="Python"><code>for t in tweets:
+    #pprint.pprint(t._json)
+    #print(t.id)
+    if not db.tweets.find_one({"id_str": str(t.id)}):
+        print("insert ", t.id)
+        db.tweets.insert_one(t._json)
+    else:
+        print("presente ", t.id)
+    #print(dir(t))
+    u = t.user
+    #pprint.pprint(u._json)
+    # se non e' presente lo inserisco nella collection
+    if not db.users.find_one({"screen_name" : u.screen_name}):
+        db.users.insert_one(u._json)
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempi di operazioni: tutti gli users</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="Python"><code>from pymongo import MongoClient, ASCENDING, DESCENDING
+import pprint
+client = MongoClient()
+db = client.unipr
+c_users = db.users
+c_tweets = db.tweets
+# tutti gli utenti
+users = c_users.find({}, {"screen_name": 1}).sort([("screen_name", ASCENDING)])
+for u in users:
+    print(u["screen_name"])
+</code></pre>
+<pre class="prettyprint" data-lang="OUTPUT"><code>Alfredo88461728
+AllCruiseNews
+BertoDryden
+BradfordCotton5
+BurrellMinistry
+CloseToHomeInc
+...
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempi di operazioni: tweets di un utente</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="Python"><code>pipeline = [
+            {"$group": {"_id": "$user.screen_name", "count": {"$sum": 1}}},
+            {"$sort": SON([("count", -1), ("_id", -1)])}
+        ]
+
+lista = list(db.tweets.aggregate(pipeline))
+print("Primi 3 elementi: ")
+for elem in lista[0:3]:
+    print elem['_id'], elem['count']
+
+# screen_name del piu' attivo 
+screen_name = lista[0]["_id"]
+print("\npiù attivo: " + screen_name + "\n")
+# tutti i tweet dell'utente piu' attivo
+tws = c_tweets.find({"user.screen_name": screen_name})
+for t in tws:
+    print(t["lang"] + " : " +  t["text"])
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempi di operazioni: tweets di un utente</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="OUTPUT"><code>Primi 3 elementi: 
+Dorian_Gray_L 6
+BertoDryden 4
+fvl_dorian_ 2
+
+più attivo: Dorian_Gray_L
+
+ko : @Hedwig_ch 그렇죠?(생긋)
+ko : @Hedwig_ch 글쎄요. 어느곳에서든 그럴수 있죠. 그게 그다지 중요한게 아니듯이요.
+ko : @Hedwig_ch 런던이 늘 그렇죠, 뭐. (천하태평)
+ko : @Long_Grift_ (한번 콕 찔러본다)
+ko : @Lucy_H_JH 나도요.
+ko : @Hedwig_ch 시간이 뒤틀리는 것 정도야 그렇게 드문 일도 아니지 않나요?
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempi di operazioni: tweets di un utente in inglese</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="Python"><code>pipeline = [
+        {"$match": {"lang": "en"} },        # &lt;&lt;&lt;&lt;&lt; IN TESTA ALLA PIPELINE
+        {"$group": {"_id": "$user.screen_name", "count": {"$sum": 1}}},
+        {"$sort": SON([("count", -1), ("_id", -1)])}
+    ]
+
+lista = list(db.tweets.aggregate(pipeline))
+# screen_name del piu' attivo 
+screen_name = lista[0]["_id"]
+print("\npiù attivo: " + screen_name + "\n")
+# tutti i tweet dell'utente piu' attivo
+tws = c_tweets.find({"user.screen_name": screen_name})
+for t in tws:
+    print(t["lang"] + " : " +  t["text"])
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempi di operazioni: tweets di un utente in inglese</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint" data-lang="OUTPUT"><code>Primi 3 elementi: 
+BertoDryden 4
+ResilienceAcad 2
+CulverCityNIMBY 2
+
+più attivo: BertoDryden
+
+en : RT @TwitterMoments: The Hurricane Dorian death toll has risen to 23 in the Bahamas,[...]
+en : RT @nytimesworld: Tropical Storm Humberto is unlikely to be as destructive [...]
+en : RT @foxnewsradio: Tropical Storm Humberto  bringing rain to parts of the Bahamas [...]
+en : RT @JacobLanierWx: @HUMBERTO...TD Nine has made it to the minor leagues...it's now [...]
+</code></pre></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="images/logoUnipr.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Giulio Angiani <br> Universita' degli Studi di Parma
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

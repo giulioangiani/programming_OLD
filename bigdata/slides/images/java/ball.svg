@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="219 139 254 166" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #90ee90" x="220" y="140" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="140" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="298.15" y="159">Ball</text>
+    <rect style="fill: #90ee90" x="220" y="168" width="156.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="168" width="156.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="182">-x: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="198">-y: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="214">-dx: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="230">-dy: int</text>
+    <rect style="fill: #90ee90" x="220" y="236" width="156.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="236" width="156.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="250">+move()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="266">+getX(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="282">+getY(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="298">+toString(): String</text>
+  </g>
+  <g>
+    <polygon style="fill: #e6e6fa" points="400,180 459.9,180 471.9,192 471.9,230 400,230 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #bfbfbf" points="400,180 459.9,180 471.9,192 471.9,230 400,230 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #bfbfbf" points="459.9,180 459.9,192 471.9,192 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="407" y="204.9">
+      <tspan x="407" y="204.9">Private</tspan>
+      <tspan x="407" y="220.9">fields</tspan>
+    </text>
+  </g>
+  <g>
+    <polygon style="fill: #e6e6fa" points="400,240 459.9,240 471.9,252 471.9,290 400,290 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #bfbfbf" points="400,240 459.9,240 471.9,252 471.9,290 400,290 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #bfbfbf" points="459.9,240 459.9,252 471.9,252 "/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="407" y="264.9">
+      <tspan x="407" y="264.9">Public</tspan>
+      <tspan x="407" y="280.9">methods</tspan>
+    </text>
+  </g>
+</svg>

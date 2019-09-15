@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="79 39 465 271" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #90ee90" x="220" y="40" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="40" width="156.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="298.15" y="59">Shape</text>
+    <rect style="fill: #90ee90" x="220" y="68" width="156.3" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="220" y="68" width="156.3" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="82">+area(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="98">+perimeter(): float</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="223" y="114">+getName(): String</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="80" y="200" width="100.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="80" y="200" width="100.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="130.15" y="219">Rectangle</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="93.2" y="280" width="73.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="93.2" y="280" width="73.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="130.15" y="299">Square</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="460" y="200" width="82.5422" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="460" y="200" width="82.5422" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="501.271" y="219">Triangle</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="240" y="200" width="152.75" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="240" y="200" width="152.75" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="316.375" y="219">RegularPolygon</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="298.15,138.236 298.15,167.496 130.15,167.496 130.15,198.993 "/>
+    <polygon style="fill: #ffffff" points="306.15,138.236 298.15,122.236 290.15,138.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="306.15,138.236 298.15,122.236 290.15,138.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="298.15,138.236 298.15,167.496 316.375,167.496 316.375,198.993 "/>
+    <polygon style="fill: #ffffff" points="306.15,138.236 298.15,122.236 290.15,138.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="306.15,138.236 298.15,122.236 290.15,138.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="298.15,138.236 298.15,167.496 501.271,167.496 501.271,198.993 "/>
+    <polygon style="fill: #ffffff" points="306.15,138.236 298.15,122.236 290.15,138.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="306.15,138.236 298.15,122.236 290.15,138.236 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="130.15,247.243 130.15,246.007 130.15,277.993 130.15,278.993 "/>
+    <polygon style="fill: #ffffff" points="138.15,247.243 130.15,231.243 122.15,247.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="138.15,247.243 130.15,231.243 122.15,247.243 "/>
+  </g>
+</svg>

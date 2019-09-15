@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="340 159 305 109"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="data-shop-0.svg">
+  <metadata
+     id="metadata58">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs56" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1215"
+     inkscape:window-height="776"
+     id="namedview54"
+     showgrid="false"
+     inkscape:zoom="1.9167762"
+     inkscape:cx="280.38596"
+     inkscape:cy="105.36982"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4">
+    <rect
+       style="fill:#ff5555"
+       x="340"
+       y="160"
+       width="95.3"
+       height="24"
+       id="rect6" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="340"
+       y="160"
+       width="95.3"
+       height="24"
+       id="rect8" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="387.65"
+       y="180"
+       id="text10">Acquisto</text>
+    <rect
+       style="fill: #ffff55"
+       x="340"
+       y="184"
+       width="95.3"
+       height="84"
+       id="rect12" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="340"
+       y="184"
+       width="95.3"
+       height="84"
+       id="rect14" />
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="194"
+       rx="2"
+       ry="2"
+       id="ellipse16" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="200"
+       id="text18">Carrello</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="210"
+       rx="2"
+       ry="2"
+       id="ellipse20" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="216"
+       id="text22">Cliente</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="226"
+       rx="2"
+       ry="2"
+       id="ellipse24" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="232"
+       id="text26">Prodotto</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="242"
+       rx="2"
+       ry="2"
+       id="ellipse28" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="248"
+       id="text30">Categorie</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="258"
+       rx="2"
+       ry="2"
+       id="ellipse32" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="264"
+       id="text34">Quantità</text>
+  </g>
+  <g
+     id="g36">
+    <line
+       style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000099"
+       x1="460"
+       y1="220"
+       x2="504.457"
+       y2="249.638"
+       id="line38" />
+    <polygon
+       style="fill: #000099"
+       points="510.697,253.798 499.603,252.412 504.457,249.638 505.15,244.091 "
+       id="polygon40" />
+    <polygon
+       style="fill: none; fill-opacity:0; stroke-width: 10; stroke: #000099"
+       points="510.697,253.798 499.603,252.412 504.457,249.638 505.15,244.091 "
+       id="polygon42" />
+  </g>
+  <text
+     font-size="22.5778"
+     style="fill: #000099;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:700"
+     x="500"
+     y="180"
+     id="text44">
+    <tspan
+       x="500"
+       y="180"
+       id="tspan46">Spesa</tspan>
+    <tspan
+       x="500"
+       y="208.222"
+       id="tspan48">a casa</tspan>
+  </text>
+  <text
+     font-size="12.8"
+     style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
+     x="640"
+     y="220"
+     id="text50">
+    <tspan
+       x="640"
+       y="220"
+       id="tspan52">.</tspan>
+  </text>
+</svg>

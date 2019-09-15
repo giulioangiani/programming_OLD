@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="39 39 726 290" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #eedd82" x="380" y="40" width="66" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="40" width="66" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="413" y="59">Shape</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="80.8484" y="140" width="151.953" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="80.8484" y="140" width="151.953" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="156.825" y="159">RegularPolygon</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="300.45" y="200" width="73.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="300.45" y="200" width="73.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="337.4" y="219">Square</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="640.45" y="140" width="82.5422" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640.45" y="140" width="82.5422" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="681.721" y="159">Triangle</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="413,86.2361 413,111.496 156.825,111.496 156.825,138.993 "/>
+    <polygon style="fill: #ffffff" points="421,86.2361 413,70.2361 405,86.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="421,86.2361 413,70.2361 405,86.2361 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="413,86.2361 413,111.496 490.6,111.496 490.6,138.993 "/>
+    <polygon style="fill: #ffffff" points="421,86.2361 413,70.2361 405,86.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="421,86.2361 413,70.2361 405,86.2361 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="413,86.2361 413,111.496 681.721,111.496 681.721,138.993 "/>
+    <polygon style="fill: #ffffff" points="421,86.2361 413,70.2361 405,86.2361 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="421,86.2361 413,70.2361 405,86.2361 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.038,154 337.4,154 337.4,200 "/>
+    <polygon style="fill: #ffffff" points="251.038,146 235.038,154 251.038,162 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="251.038,146 235.038,154 251.038,162 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="260" y="300" width="154.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="300" width="154.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="337.4" y="319">ConcreteSquare</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="400" y="240" width="181.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="240" width="181.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="490.6" y="259">ConcreteRectangle</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="600" y="240" width="163.442" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="600" y="240" width="163.442" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="681.721" y="259">ConcreteTriangle</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="337.4,247.243 337.4,246.007 337.4,297.993 337.4,298.993 "/>
+    <polygon style="fill: #ffffff" points="345.4,247.243 337.4,231.243 329.4,247.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="345.4,247.243 337.4,231.243 329.4,247.243 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="490.6,187.243 490.6,186.007 490.6,237.993 490.6,238.993 "/>
+    <polygon style="fill: #ffffff" points="498.6,187.243 490.6,171.243 482.6,187.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="498.6,187.243 490.6,171.243 482.6,187.243 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="681.721,187.243 681.721,186.007 681.721,239 681.721,240 "/>
+    <polygon style="fill: #ffffff" points="689.721,187.243 681.721,171.243 673.721,187.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="689.721,187.243 681.721,171.243 673.721,187.243 "/>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="440.848" y="140" width="99.5031" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440.848" y="140" width="99.5031" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="490.6" y="159">Rectangle</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="422.612,154 337.4,154 337.4,200 "/>
+    <polygon style="fill: #ffffff" points="422.612,162 438.612,154 422.612,146 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="422.612,162 438.612,154 422.612,146 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="40" y="240" width="233.65" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="40" y="240" width="233.65" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="156.825" y="259">ConcreteRegularPolygon</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="156.825,187.243 156.825,186.007 156.825,237.993 156.825,238.993 "/>
+    <polygon style="fill: #ffffff" points="164.825,187.243 156.825,171.243 148.825,187.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="164.825,187.243 156.825,171.243 148.825,187.243 "/>
+  </g>
+</svg>

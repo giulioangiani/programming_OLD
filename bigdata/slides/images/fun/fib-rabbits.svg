@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="43cm" height="28cm" viewBox="-2 -2 843 542" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="76.8334" width="840" height="40.8235" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="102.412">
+        <tspan xml:space="preserve" x="-1" y="102.412">    1 months: 1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="160" width="840" height="43.1667" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="186.75">
+        <tspan xml:space="preserve" x="-1" y="186.75">    2 months: 1</tspan>
+      </text>
+    </g>
+    <image x="580" y="60" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="240" width="840" height="43.1667" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="266.75">
+        <tspan xml:space="preserve" x="-1" y="266.75">    3 months: 2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="320" width="840" height="40.8235" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="345.578">
+        <tspan xml:space="preserve" x="-1" y="345.578">    4 months: 3</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="400" width="840" height="43.1667" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="426.75">
+        <tspan xml:space="preserve" x="-1" y="426.75">    5 months: 5</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="480" width="840" height="43.1667" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="506.75">
+        <tspan xml:space="preserve" x="-1" y="506.75">    6 months: 8</tspan>
+      </text>
+    </g>
+    <image x="580" y="220" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <image x="280" y="460" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <image x="480" y="460" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <image x="580" y="380" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <image x="680" y="460" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 619.999 140.005 C 609.999,180.005 545.001,219.996 536.208,290.335"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="535.278,297.777 531.557,287.234 536.208,290.335 541.48,288.474 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 619.998 140.008 C 609.998,180.008 442.5,219.996 433.108,370.279"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="432.64,377.765 428.273,367.472 433.108,370.279 438.254,368.096 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 619.999 140.006 C 609.999,180.006 341.647,220.484 332.052,450.756"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="331.74,458.249 327.16,448.05 332.052,450.756 337.152,448.466 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 620.147 139.412 C 610.147,179.412 610.147,180.588 617.786,211.143"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="619.605,218.419 612.329,209.93 617.786,211.143 622.03,207.505 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 639.853 299.412 C 649.853,339.412 610.147,340.588 617.786,371.143"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="619.605,378.419 612.329,369.93 617.786,371.143 622.03,367.505 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 520.147 379.412 C 510.147,419.412 510.147,420.588 517.786,451.143"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="519.605,458.419 512.329,449.93 517.786,451.143 522.03,447.505 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 640.001 300.005 C 650.001,340.005 714.999,379.996 723.792,450.335"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="724.722,457.777 718.52,448.474 723.792,450.335 728.443,447.234 "/>
+    </g>
+    <image x="380" y="380" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <image x="480" y="300" width="100" height="80" xlink:href="happy-tree-friends.svg"/>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="0" width="840" height="40.8235" rx="8" ry="8"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="25.5784">
+        <tspan xml:space="preserve" x="-1" y="25.5784">    0 months: 0</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

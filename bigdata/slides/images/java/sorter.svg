@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="280 128 425 182" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #eedd82" x="580.5" y="180" width="43.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="580.5" y="180" width="43.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="602.025" y="199">List</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="560" y="280" width="84.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="280" width="84.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="602.025" y="299">Element</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="340" y="280" width="117.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="280" width="117.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="398.6" y="299">Comparator</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="602.025,234.179 602.025,224.007 602.025,277.993 602.025,278.993 "/>
+    <polygon style="fill: #ffffff" points="602.025,209.007 606.825,223.007 602.025,237.007 597.225,223.007 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="602.025,209.007 606.825,223.007 602.025,237.007 597.225,223.007 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="604.025" y="247"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="613.025" y="221.007"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="606.025" y="274.993"/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="365.2" y="180" width="66.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="365.2" y="180" width="66.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="398.6" y="199">Sorter</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="458.207,294 459.207,294 549.995,294 552.29,294 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="539.642,299 555.642,294 539.642,289 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="429.119" y1="209.002" x2="567.493" y2="277.025"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="558.319,278.087 569.5,278.011 562.731,269.112 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="432.993" y1="194" x2="575.024" y2="194"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="567.26,199 577.26,194 567.26,189 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="398.6" y1="209.002" x2="398.6" y2="274.525"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="393.6,266.761 398.6,276.761 403.6,266.761 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #bfbfbf;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="280" y="260">
+    <tspan x="280" y="260">.</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="260">
+    <tspan x="700" y="260">.</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #bfbfbf;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="140">
+    <tspan x="500" y="140">.</tspan>
+  </text>
+</svg>

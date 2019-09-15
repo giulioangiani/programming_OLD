@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="28 -21 787 370" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #eedd82" x="340" y="-20" width="140.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="-20" width="140.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="410.45" y="-1">Collection</text>
+    <rect style="fill: #eedd82" x="340" y="8" width="140.9" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="340" y="8" width="140.9" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="22">+add(Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="38">+remove(Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="54">+contains(Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="70">+size()</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="182.4" y="140" width="40.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="182.4" y="140" width="40.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="202.55" y="159">Set</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="410.45,95.242 410.45,115.999 202.55,115.999 202.55,138.993 "/>
+    <polygon style="fill: #ffffff" points="418.45,95.242 410.45,79.242 402.45,95.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="418.45,95.242 410.45,79.242 402.45,95.242 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="410.45,95.242 410.45,116 746.6,116 746.6,138.993 "/>
+    <polygon style="fill: #ffffff" points="418.45,95.242 410.45,79.242 402.45,95.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="418.45,95.242 410.45,79.242 402.45,95.242 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="700" y="320" width="91.8078" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="320" width="91.8078" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="745.904" y="339">ArrayList</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="680" y="140" width="133.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="140" width="133.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="746.6" y="159">List</text>
+    <rect style="fill: #eedd82" x="680" y="168" width="133.2" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="680" y="168" width="133.2" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="182">+get(int)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="198">+set(int,Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="214">+add(int,Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="230">+remove(int)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="683" y="246">+indexOf(Object)</text>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="40" y="320" width="78.7422" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="40" y="320" width="78.7422" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="79.3711" y="339">TreeSet</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="400" y="140" width="140.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="140" width="140.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="470.45" y="159">Deque</text>
+    <rect style="fill: #eedd82" x="400" y="168" width="140.9" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="400" y="168" width="140.9" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="182">+addFirst(Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="198">+removeFirst()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="214">+getFirst()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="230">+addLast(Object)</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="246">+removeLast()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="403" y="262">+getLast()</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="29.0461" y="140" width="100.65" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="29.0461" y="140" width="100.65" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="79.3711" y="159">SortedSet</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="163.159,154 164.395,154 131.702,154 130.702,154 "/>
+    <polygon style="fill: #ffffff" points="163.159,162 179.159,154 163.159,146 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="163.159,162 179.159,154 163.159,146 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="79.3711,187.243 79.3711,186.007 79.3711,317.993 79.3711,318.993 "/>
+    <polygon style="fill: #ffffff" points="87.3711,187.243 79.3711,171.243 71.3711,187.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="87.3711,187.243 79.3711,171.243 71.3711,187.243 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="160" y="320" width="85.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="320" width="85.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="202.55" y="339">HashSet</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="202.55,187.243 202.55,186.007 202.55,317.993 202.55,318.993 "/>
+    <polygon style="fill: #ffffff" points="210.55,187.243 202.55,171.243 194.55,187.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="210.55,187.243 202.55,171.243 194.55,187.243 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="412.046" y="320" width="116.808" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="412.046" y="320" width="116.808" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="470.45" y="339">ArrayDeque</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="470.45,287.244 470.45,302 470.45,302 470.45,318.993 "/>
+    <polygon style="fill: #ffffff" points="478.45,287.244 470.45,271.244 462.45,287.244 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="478.45,287.244 470.45,271.244 462.45,287.244 "/>
+  </g>
+  <g>
+    <rect style="fill: #90ee90" x="560" y="320" width="102.47" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="560" y="320" width="102.47" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="611.235" y="339">LinkedList</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="559.136,194 611.235,194 611.235,320 "/>
+    <polygon style="fill: #ffffff" points="559.136,186 543.136,194 559.136,202 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="559.136,186 543.136,194 559.136,202 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="661.764,194 611.235,194 611.235,320 "/>
+    <polygon style="fill: #ffffff" points="661.764,202 677.764,194 661.764,186 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="661.764,202 677.764,194 661.764,186 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="410.45,95.242 410.45,115.999 303.5,115.999 303.5,138.992 "/>
+    <polygon style="fill: #ffffff" points="418.45,95.242 410.45,79.242 402.45,95.242 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="418.45,95.242 410.45,79.242 402.45,95.242 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="746.6,271.243 746.6,294 745.904,294 745.904,318.993 "/>
+    <polygon style="fill: #ffffff" points="754.6,271.243 746.6,255.243 738.6,271.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="754.6,271.243 746.6,255.243 738.6,271.243 "/>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="260" y="140" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="140" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="303.5" y="159">Queue</text>
+    <rect style="fill: #eedd82" x="260" y="168" width="87" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="168" width="87" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="263" y="182">+remove()</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="263" y="198">+element()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="365.236,154 364,154 399,154 400,154 "/>
+    <polygon style="fill: #ffffff" points="365.236,146 349.236,154 365.236,162 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="365.236,146 349.236,154 365.236,162 "/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="11cm" viewBox="137 100 405 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="140" y="100" width="400" height="140"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" x="140" y="100" width="400" height="140"/>
+  </g>
+  <g>
+    <ellipse style="fill: #bfbfbf" cx="340" cy="220" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="340" cy="220" rx="20" ry="20"/>
+  </g>
+  <g>
+    <rect style="fill: #7f7f7f" x="140" y="240" width="400" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #7f7f7f" x="140" y="240" width="400" height="80"/>
+  </g>
+  <image x="200" y="140" width="40" height="40" xlink:href="file:///home/mic/Documents/didattica/slide-2013/images/oop/ball.png"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="242.002" y1="171.001" x2="291.292" y2="195.646"/>
+    <polygon style="fill: #000000" points="298,199 286.82,199 291.292,195.646 291.292,190.056 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="298,199 286.82,199 291.292,195.646 291.292,190.056 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="300" y1="200" x2="340" y2="220"/>
+  <image x="400" y="160" width="40" height="40" xlink:href="file:///home/mic/Documents/didattica/slide-2013/images/oop/ball.png"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="380" y1="200" x2="397.998" y2="191.001"/>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:start;font-family:Times New Roman;font-style:normal;font-weight:normal" x="160" y="173.85">
+    <tspan x="160" y="173.85">y</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Times New Roman;font-style:normal;font-weight:normal" x="180" y="180">
+    <tspan x="180" y="180">i</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #ffffff;text-anchor:start;font-family:Times New Roman;font-style:normal;font-weight:normal" x="460" y="273.85">
+    <tspan x="460" y="273.85">y'</tspan>
+  </text>
+  <text font-size="28.2222" style="fill: #000000;text-anchor:start;font-family:Times New Roman;font-style:normal;font-weight:normal" x="460" y="193.85">
+    <tspan x="460" y="193.85">y</tspan>
+  </text>
+  <text font-size="22.5778" style="fill: #ffffff;text-anchor:start;font-family:Arial;font-style:normal;font-weight:normal" x="160" y="267.825">
+    <tspan x="160" y="267.825">FLOOR</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #000000;text-anchor:start;font-family:Times New Roman;font-style:normal;font-weight:normal" x="480" y="200">
+    <tspan x="480" y="200">i+1</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #ffffff;text-anchor:start;font-family:Times New Roman;font-style:normal;font-weight:normal" x="480" y="280">
+    <tspan x="480" y="280">i+1</tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #bfbfbf" cx="420" cy="260" rx="20" ry="20"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="420" cy="260" rx="20" ry="20"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #000000" x1="140" y1="240" x2="540" y2="240"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="340" y1="220" x2="371.292" y2="204.354"/>
+    <polygon style="fill: #000000" points="378,201 371.292,209.944 371.292,204.354 366.82,201 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="378,201 371.292,209.944 371.292,204.354 366.82,201 "/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="340" y1="220" x2="401.23" y2="250.615"/>
+</svg>

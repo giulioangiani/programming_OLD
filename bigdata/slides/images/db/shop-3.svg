@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="340 180 271 300"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="data-shop-3.svg">
+  <metadata
+     id="metadata164">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs162" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1215"
+     inkscape:window-height="776"
+     id="namedview160"
+     showgrid="false"
+     inkscape:zoom="1.1158058"
+     inkscape:cx="247.76574"
+     inkscape:cy="265.74802"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4">
+    <rect
+       style="fill:#ff5555"
+       x="500"
+       y="180"
+       width="110.7"
+       height="24"
+       id="rect6" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="500"
+       y="180"
+       width="110.7"
+       height="24"
+       id="rect8" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="555.35"
+       y="200"
+       id="text10">Carrello</text>
+    <rect
+       style="fill: #ffff55"
+       x="500"
+       y="204"
+       width="110.7"
+       height="52"
+       id="rect12" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="500"
+       y="204"
+       width="110.7"
+       height="52"
+       id="rect14" />
+    <polygon
+       style="fill: #000000"
+       points="503,214 505,217 507,214 505,211 "
+       id="polygon16" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="509"
+       y="220"
+       id="text18">NumCarrello</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="505"
+       cy="230"
+       rx="2"
+       ry="2"
+       id="ellipse20" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="509"
+       y="236"
+       id="text22">Data</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="505"
+       cy="246"
+       rx="2"
+       ry="2"
+       id="ellipse24" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="509"
+       y="252"
+       id="text26">CodFisc</text>
+  </g>
+  <g
+     id="g28">
+    <rect
+       style="fill:#ff5555"
+       x="500"
+       y="420"
+       width="110.7"
+       height="24"
+       id="rect30" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="500"
+       y="420"
+       width="110.7"
+       height="24"
+       id="rect32" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="555.35"
+       y="440"
+       id="text34">ProdCat</text>
+    <rect
+       style="fill: #ffff55"
+       x="500"
+       y="444"
+       width="110.7"
+       height="36"
+       id="rect36" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="500"
+       y="444"
+       width="110.7"
+       height="36"
+       id="rect38" />
+    <polygon
+       style="fill: #000000"
+       points="503,454 505,457 507,454 505,451 "
+       id="polygon40" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="509"
+       y="460"
+       id="text42">CodProdotto</text>
+    <polygon
+       style="fill: #000000"
+       points="503,470 505,473 507,470 505,467 "
+       id="polygon44" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="509"
+       y="476"
+       id="text46">Categoria</text>
+  </g>
+  <g
+     id="g48">
+    <rect
+       style="fill:#ff5555"
+       x="340"
+       y="220"
+       width="110.7"
+       height="24"
+       id="rect50" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="340"
+       y="220"
+       width="110.7"
+       height="24"
+       id="rect52" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="395.35"
+       y="240"
+       id="text54">Acquisto</text>
+    <rect
+       style="fill: #ffff55"
+       x="340"
+       y="244"
+       width="110.7"
+       height="52"
+       id="rect56" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="340"
+       y="244"
+       width="110.7"
+       height="52"
+       id="rect58" />
+    <polygon
+       style="fill: #000000"
+       points="343,254 345,257 347,254 345,251 "
+       id="polygon60" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="349"
+       y="260"
+       id="text62">NumCarrello</text>
+    <polygon
+       style="fill: #000000"
+       points="343,270 345,273 347,270 345,267 "
+       id="polygon64" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="349"
+       y="276"
+       id="text66">CodProdotto</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="286"
+       rx="2"
+       ry="2"
+       id="ellipse68" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="292"
+       id="text70">Quantità</text>
+  </g>
+  <g
+     id="g72">
+    <rect
+       style="fill:#ff5555"
+       x="340"
+       y="340"
+       width="110.7"
+       height="24"
+       id="rect74" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="340"
+       y="340"
+       width="110.7"
+       height="24"
+       id="rect76" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="395.35"
+       y="360"
+       id="text78">Prodotto</text>
+    <rect
+       style="fill: #ffff55"
+       x="340"
+       y="364"
+       width="110.7"
+       height="68"
+       id="rect80" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="340"
+       y="364"
+       width="110.7"
+       height="68"
+       id="rect82" />
+    <polygon
+       style="fill: #000000"
+       points="343,374 345,377 347,374 345,371 "
+       id="polygon84" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="349"
+       y="380"
+       id="text86">CodProdotto</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="390"
+       rx="2"
+       ry="2"
+       id="ellipse88" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="396"
+       id="text90">Nome</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="406"
+       rx="2"
+       ry="2"
+       id="ellipse92" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="412"
+       id="text94">Marca</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="345"
+       cy="422"
+       rx="2"
+       ry="2"
+       id="ellipse96" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="349"
+       y="428"
+       id="text98">Prezzo</text>
+  </g>
+  <g
+     id="g100">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="500,246 475.35,246 475.35,270 450.7,270 "
+       id="polyline102" />
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal"
+       x="496"
+       y="242"
+       id="text104">1</text>
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="454.7"
+       y="266"
+       id="text106">n</text>
+  </g>
+  <g
+     id="g108">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="450.7,390 475.35,390 475.35,454 500,454 "
+       id="polyline110" />
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="454.7"
+       y="386"
+       id="text112">1</text>
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal"
+       x="496"
+       y="450"
+       id="text114">n</text>
+  </g>
+  <g
+     id="g116">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="395.35,340 395.35,340 395.35,296 395.35,296 "
+       id="polyline118" />
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="399.35"
+       y="336"
+       id="text120">1</text>
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="399.35"
+       y="308"
+       id="text122">n</text>
+  </g>
+  <g
+     id="g124">
+    <rect
+       style="fill:#ff5555"
+       x="507.7"
+       y="300"
+       width="95.3"
+       height="24"
+       id="rect126" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="507.7"
+       y="300"
+       width="95.3"
+       height="24"
+       id="rect128" />
+    <text
+       font-size="16"
+       style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700"
+       x="555.35"
+       y="320"
+       id="text130">Cliente</text>
+    <rect
+       style="fill: #ffff55"
+       x="507.7"
+       y="324"
+       width="95.3"
+       height="68"
+       id="rect132" />
+    <rect
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       x="507.7"
+       y="324"
+       width="95.3"
+       height="68"
+       id="rect134" />
+    <polygon
+       style="fill: #000000"
+       points="510.7,334 512.7,337 514.7,334 512.7,331 "
+       id="polygon136" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:700"
+       x="516.7"
+       y="340"
+       id="text138">CodFisc</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="512.7"
+       cy="350"
+       rx="2"
+       ry="2"
+       id="ellipse140" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="516.7"
+       y="356"
+       id="text142">Nome</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="512.7"
+       cy="366"
+       rx="2"
+       ry="2"
+       id="ellipse144" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="516.7"
+       y="372"
+       id="text146">Cognome</text>
+    <ellipse
+       style="fill: none; fill-opacity:0; stroke-width: 0.2; stroke: #000000"
+       cx="512.7"
+       cy="382"
+       rx="2"
+       ry="2"
+       id="ellipse148" />
+    <text
+       font-size="12.8"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="516.7"
+       y="388"
+       id="text150">Indirizzo</text>
+  </g>
+  <g
+     id="g152">
+    <polyline
+       style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000"
+       points="555.35,300 555.35,300 555.35,256 555.35,256 "
+       id="polyline154" />
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="559.35"
+       y="296"
+       id="text156">1</text>
+    <text
+       font-size="9.59961"
+       style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal"
+       x="559.35"
+       y="268"
+       id="text158">n</text>
+  </g>
+</svg>

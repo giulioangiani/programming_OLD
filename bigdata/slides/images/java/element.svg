@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg viewBox="560 179 165 190" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #eedd82" x="617.862" y="180" width="43.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="617.862" y="180" width="43.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="639.387" y="199">List</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="597.362" y="260" width="84.05" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="597.362" y="260" width="84.05" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="639.387" y="279">Element</text>
+  </g>
+  <g>
+    <rect style="fill: #eedd82" x="606.388" y="340" width="66" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606.388" y="340" width="66" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:700" x="639.388" y="359">Shape</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="639.387,307.243 639.387,322 639.388,322 639.388,338.993 "/>
+    <polygon style="fill: #ffffff" points="647.387,307.243 639.387,291.243 631.387,307.243 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="647.387,307.243 639.387,291.243 631.387,307.243 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="639.387,234.179 639.387,224.007 639.387,257.993 639.387,258.993 "/>
+    <polygon style="fill: #ffffff" points="639.387,209.007 644.187,223.007 639.387,237.007 634.587,223.007 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="639.387,209.007 644.187,223.007 639.387,237.007 634.587,223.007 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="641.387" y="237"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="650.387" y="221.007"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643.387" y="254.993"/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="280">
+    <tspan x="560" y="280">.</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="280">
+    <tspan x="720" y="280">.</tspan>
+  </text>
+</svg>
