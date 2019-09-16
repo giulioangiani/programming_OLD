@@ -31,7 +31,7 @@ list<element> readfile(const string fname) {
 			result.push_back(x);
 		}
 	}
-	cout << "EOF reached " << endl;
+	//cout << "EOF reached " << endl;
     fp.close();
     return result;
 }
