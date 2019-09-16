@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>La prima form</title>
+	</head>
+	<body>
+		<h3>FORM</h3>
+		
+		<form action="registra.php">
+			Nome: <input name='name' type="text"
+					
+				>
+			<br>
+			Cognome: <input name='familyname' type="text">
+			<hr>
+			Password: <input name='pwd' type="password">
+			<hr>
+			COlore: <input type="color" name='colore'>
+			<hr>
+			Et&agrave;: 10 <input type="range" name='eta' min="10" max="100"> 100<br>
+			<br>
+			<br>
+			Sesso:<br>
+			<input name='sex' value='M' type="radio">M <br>
+			<input name='sex' value='F' type="radio">F <br>
+			<input name='sex' value='X' type="radio">Altro <br>
+			<hr>
+			Sport praticati:<br>
+			<input name='sportB' value='basket' type="checkbox">Basket <br>
+			<input name='sportC' value='calcio' type="checkbox">Calcio <br>
+			<input name='sportS' value='sci' type="checkbox">Sci <br>
+			<hr>
+			Auto<br>
+			<select name="cars">
+			  <option value="">-- seleziona --</option>
+			  <option value="volvo">Volvo</option>
+			  <option value="saab">Saab</option>
+			  <option value="fiat">Fiat</option>
+			  <option value="audi">Audi</option>
+			</select>
+			<br>
+			Note:
+			<textarea name="note" rows="5" cols="80"
+				placeholder='inserisci qui le tue note'
+				></textarea>
+			<br>
+			Email <input type="email" name='email'>
+			<br>
+			Data di nascita <input type="date" name='birthday'>
+			<br>
+			<input name='bottone' value='Invia dati' type="button">
+			<input name='submit' value='Invia dati' type="submit">
+	</body>
+</html>
