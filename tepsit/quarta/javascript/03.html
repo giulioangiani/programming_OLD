@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>primo programma JS</title>
+		<script>
+			
+			var acceso = false;
+			
+			function accendispegni() {
+			//	alert("accendispegni");
+				var obj = document.getElementById('lampadina');
+			//	console.log(obj);
+				if (!acceso) {
+					obj.src='images/pic_bulbon.gif';
+					acceso = true;
+				}
+				else {
+					obj.src='images/pic_bulboff.gif';
+					acceso = false;
+				}
+				
+
+			}
+				
+		</script>	
+	</head>
+	<body>
+		<h3 id='label'>Selezione per ID</h3>
+		
+		<img src='images/pic_bulboff.gif' id='lampadina' 
+		onClick='accendispegni()'>
+
+	</body>
+</html>
