@@ -86,6 +86,26 @@ bool fully_balanced(node_ptr p) {
 
 }
 
+void stampasolofoglie(node_ptr p) {	
+	if (!p) return;
+	
+	if (!p->dx && !p->sx) {
+		// e' una foglia
+		cout << p->content << ",";
+	}
+	else {
+		stampasolofoglie(p->dx);
+		stampasolofoglie(p->sx);
+	}
+}
+
+void stampalivello(node_ptr p, int liv, int cont) {	
+
+
+}
+
+
+
 int main()
 {
 
@@ -145,7 +165,7 @@ int main()
     cout << "DEEP: " << deep(root) << endl;
     cout << "BALANCED root: " << balanced(root) << endl;
     cout << "FULLY BALANCED root: " << fully_balanced(root) << endl;
-
+	cout << "SOLO FOGLIE "; stampasolofoglie(root);
     return 0;
 }
 
