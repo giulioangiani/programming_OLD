@@ -23,10 +23,10 @@ from tweepy import Cursor
 from tweepy.error import RateLimitError, TweepError
 
 d = {
-	"consumer_key": "iIkJ52sdYqzSsgJrNR2ZX1RWq",
-	"consumer_secret": "YZ9ti7yHsqQFu4EKYx4wCapna3B6HaEjYDpBhNr6PdKMITfMs5",
-	"access_token": "2151668340-xcQz8BuA7XdLyRuLfEKVs4fN8D4BwrfDHUjFTWQ",
-	"access_token_secret": "4B0XuPZtpMhXQgOshSUqjeUawI2h49ihl27GUTHum8ON2"
+	"consumer_key": "",
+	"consumer_secret": "",
+	"access_token": "",
+	"access_token_secret": ""
 }
 
 args = sys.argv
