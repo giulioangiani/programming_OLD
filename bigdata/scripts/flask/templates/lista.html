@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista Items{% endblock %}
+
+{% block main %}
+	{% for i in items %}
+		<div class="flash">{{ i.code }} {{ i.description }} {{ i.price }}</div>
+	{% endfor %}
+{% endblock %}

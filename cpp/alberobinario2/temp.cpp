@@ -45,6 +45,7 @@ int deep(node_ptr p) {
 
 bool fully_balanced(node_ptr p) {
     // insert here you code!
+    return true;
 }
 
 void stampasolofoglie(node_ptr p) {	
@@ -95,16 +96,16 @@ int main()
     root = insBilanciato(root, 20);
     root = insBilanciato(root, 11);
 
-    /*
-    preorder(root); cout << endl;
-    inorder(root); cout << endl;
+    
+//    preorder(root); cout << endl;
+//    inorder(root); cout << endl;
 
     vector<int> result {};
     result = preorderVector(root, result);
     for (vector<int>::iterator it = result.begin(); it != result.end(); ++it) {
         cout << *it << " ";
     }
-    */
+    
 
     return 0;
 }
