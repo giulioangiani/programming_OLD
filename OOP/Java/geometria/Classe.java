@@ -8,7 +8,7 @@ public class Classe {
 	
 	public int bello() {
 		
-		
+		int x = 1;	
 		
 	}
 	
