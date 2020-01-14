@@ -6,6 +6,12 @@ public class Classe {
 		this.test = t;
 	}
 	
+	public int bello() {
+		
+		
+		
+	}
+	
 	public void prova() {
 		System.out.println("Ciao");
 	}
