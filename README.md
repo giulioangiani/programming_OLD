@@ -6,4 +6,4 @@ Codici e Slides della mia attività di docenza
 
 Sono presenti varie sezioni dove trovate codice diviso per argomento o linguaggi	
 
-[Object Oriented Programming in Java](tree/master/OOP/Java)
+[Object Oriented Programming in Java](https://github.com/giulioangiani/programming/tree/master/OOP/Java)
