@@ -6,8 +6,6 @@
 package esempi;
 
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -21,20 +19,37 @@ public class Esempi {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        ArrayList<Integer> pippo = new ArrayList<>();
-        pippo.add(5);
-        pippo.add(1);
-        pippo.add(10);
-        System.out.println("Size: " + pippo.size());
-        System.out.println("Contenuto " + pippo);
         
+        // posso chiamare il metodo statico ma non quelli 
+        System.out.println("Quanti sono (static) ? " + Pet.quanti());
+
         ArrayList<Pet> mypets = new ArrayList<>();
-        mypets.add(new Pet("Molly"));
-        mypets.add(new Pet("Baffo"));
-        System.out.println("Size: " + mypets.size());
+
+        System.out.println("Size inizio: " + mypets.size());
+
+        Pet molly = new Pet("Molly", "AX0912");
+        Pet baffo = new Pet("Baffo", "BY8377");
+   
+        mypets.add(baffo);
+        mypets.add(molly);
+        
+        System.out.println("Baffo = " + baffo);
+        
+        // numero di oggetti inseriti in ArrayList mypets
+        System.out.println("Size fine  : " + mypets.size());
+        // La stampa di una ArrayList ha il formato
+        // [ <package.classe@indirizzomemoria1>, <package.classe@indirizzomemoria2>, ...]
+        // ma se è ridefinito toString() per la classe degli oggetti di ArrayList
+        // usa quella per stamparne il contenuto
         System.out.println("Contenuto " + mypets);
         
-        
+        // creo un altro oggetto senza metterlo in mypets
+        Pet spank = new Pet("Spank", "SP0987");
+           
+        // numero di oggetti Pet creati usando il metodo statico "quanti()" 
+        // questo metodo, a sua volta, usa l'attributo statico di classe
+        System.out.println("Quanti sono (static) ? " + Pet.quanti());
+            
 
     }
     
