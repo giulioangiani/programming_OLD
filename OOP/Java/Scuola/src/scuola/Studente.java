@@ -129,7 +129,10 @@ public class Studente {
         return this.voti;
     }
     
-    
+    /**
+     * Restituisce la media di tutti i voti ricevuti
+     * @return float media totale dei voti
+     */
     public float getMediaTotale() {
         float somma = 0;
         int cont = 0;
@@ -141,6 +144,11 @@ public class Studente {
         return media;
     }
 
+    /**
+     * Restituisce la media di tutti i voti ricevuti nella materia specificata
+     * @param String materia
+     * @return float media totale dei voti
+     */
     public float getMediaMateria(String materia) {
         float somma = 0;
         int cont = 0;
@@ -153,5 +161,21 @@ public class Studente {
         return somma/cont;  // thanks to Camilla      
     }
     
+    /**
+     * 
+     * @param materia
+     * @return ArrayList voti della materia specificata
+     */
+    public ArrayList<Voto> getListaVotiMateria(String materia) {
+        ArrayList<Voto> result = new ArrayList<>(); 
+        for (Voto x : this.getVoti()) {
+            if (materia == x.getMateria()){
+                // se la materia corrisponde inserisco 
+                // nella struttura dati risultato
+                result.add(x);
+            }
+        }
+        return result;
+    } 
     
 }

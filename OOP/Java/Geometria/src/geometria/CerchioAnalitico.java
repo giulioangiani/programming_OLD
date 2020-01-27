@@ -11,9 +11,9 @@ package geometria;
  */
 public class CerchioAnalitico {
  
-    double radius = 1;
-    double x = 0;
-    double y = 0;
+    private double radius = 1;
+    private double x = 0;
+    private double y = 0;
     
     /**
      * Costruttore di classe
