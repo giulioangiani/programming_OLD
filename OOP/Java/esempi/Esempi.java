@@ -20,6 +20,30 @@ public class Esempi {
         // TODO code application logic here
         
         
+
+        System.out.println("*****************************************************************");
+        System.out.println("*****************  ESEMPIO DI USO DI ARRAYLIST ******************");
+        
+        
+        System.out.println("Stampo tutti gli elementi delll'arraylist");
+        ArrayList<Integer> numeri = new ArrayList<>();
+        numeri.add(5);
+        numeri.add(10);
+        numeri.add(8);
+        System.out.println("numeri = " + numeri);
+        for ( int x : numeri) {
+            System.out.println("numero " + x);
+        }
+        
+        
+        System.out.println("Stampo tutti gli elementi dell'arraylist con indice ");
+        for ( int i = 0; i<numeri.size(); i++) {
+            System.out.println("pos. " + i + " : numero " + numeri.get(i));
+        }
+        
+
+        System.out.println("**********************************************************************");
+        System.out.println("*****************  ESEMPIO DI USO DI METODI STATICI ******************");
         // posso chiamare il metodo statico ma non quelli 
         System.out.println("Quanti sono (static) ? " + Pet.quanti());
 
