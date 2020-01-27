@@ -99,6 +99,10 @@ public class Studente {
         return this.classe;
     } 
     
+    /**
+    * Rappresentazione stringa dello studente
+    * @return string
+    */
     @Override
     public String toString() {
       return "[Studente: " + this.cognome + " " + this.nome + "]";  
