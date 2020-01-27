@@ -5,6 +5,8 @@
  */
 package scuola;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author giulio
@@ -14,8 +16,13 @@ public class Studente {
     private String nome;
     private String cognome;
     private int classe = 0;
-    private char sezione = 'X';
+    private char sezione;
     private int matricola = 0;
+    
+    // Realizzo il PATTERN dell'associazione 1 a N
+    // fra Voto e Studente
+    private ArrayList<Voto> voti = new ArrayList<>();
+
     
     /**
      * Costruttore:
@@ -61,23 +68,16 @@ public class Studente {
     
     /**
      * Valorizza la classe dello studente
-     * @param c 
+     * @param int c 
      */
     public void setClasse(int c) {
         this.classe = c;
     }
     
-    /**
-     * Restituisce la classe dello studente
-     * @return int classe
-     */
-    public int getClasse() {
-        return this.classe;
-    } 
     
     /**
      * Valorizza la sezione dello studente
-     * @param c 
+     * @param char c 
      */
     public void setSezione(char s) {
         this.sezione = s;
@@ -90,6 +90,68 @@ public class Studente {
     public char getSezione() {
         return this.sezione;
     } 
+
+    /**
+     * Restituisce la classe dello studente
+     * @return int classe
+     */
+    public int getClasse() {
+        return this.classe;
+    } 
+    
+    @Override
+    public String toString() {
+      return "[Studente: " + this.cognome + " " + this.nome + "]";  
+    }
+
+    
+    // Realizzo il PATTERN dell'associazione 1 a N
+    // fra Voto e Studente
+    /**
+     * Aggiunge un oggetto Voto 
+     * @param Voto v
+     */
+    public void addVoto(Voto v) {
+        // questa informazione potrebbe essere passata anche direttamente
+        // nel metodo setStudente() della classe Voto 
+        // senza metterlo in questa posizione
+        // ma qui è meglio perché evito di doverlo fare ogni volta 
+        // manualmente
+        this.voti.add(v);
+        v.setStudente(this);
+    }
+    
+    /**
+     * Restituisce la struttura contenente tutti i voti dello studente
+     * @return ArrayList<Voto>
+     */
+    public ArrayList<Voto> getVoti() {
+        return this.voti;
+    }
+    
+    
+    public float getMediaTotale() {
+        float somma = 0;
+        int cont = 0;
+        for (Voto x : this.getVoti()) {
+            somma = somma + x.getValutazione();
+            cont++;
+        }
+        float media = somma/cont;        
+        return media;
+    }
+
+    public float getMediaMateria(String materia) {
+        float somma = 0;
+        int cont = 0;
+        for (Voto x : this.getVoti()) {
+            if (materia == x.getMateria()){
+                somma = somma + x.getValutazione();
+                cont++;
+            }
+        }
+        return somma/cont;  // thanks to Camilla      
+    }
     
     
 }

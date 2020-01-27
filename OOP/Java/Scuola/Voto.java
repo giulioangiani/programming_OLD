@@ -16,6 +16,11 @@ public class Voto {
     private float valutazione = 0;
     private String tipo = "";
     
+    // Realizzo il PATTERN dell'associazione 1 a N
+    // fra Voto e Studente
+    private Studente studente;
+    
+    
     /**
      * Costruttore:
      * @param materia materia del voto
@@ -26,6 +31,20 @@ public class Voto {
         this.data = data;
     }
     
+    /**
+     * Costruttore:
+     * @param materia materia del voto
+     * @param data giorno del voto
+     * @param valutazione valore del voro
+     * @param tipo tipo del voto
+     */
+    public Voto(String materia, String data, float valutazione, String tipo) {
+        this.materia = materia;
+        this.data = data;
+        this.valutazione = valutazione;
+        this.tipo = tipo;
+    }
+
     /**
      * Restituisce la materia del voto
      * @return string materia
@@ -75,5 +94,34 @@ public class Voto {
         return this.tipo;
     }
     
-   
+    // Realizzo il PATTERN dell'associazione 1 a N
+    // fra Voto e Studente
+    
+    /**
+     * Restituisce l'oggetto Studente proprietario del voto
+     * @return Studente
+     */
+    public Studente getStudente() {
+        return studente;
+    }
+
+
+    /**
+     * Rappresentazione stringa del voto
+     * @return 
+     */
+    @Override
+    public String toString() {
+      return "[Voto: " + this.getMateria() + " " + this.getValutazione() + " (" + this.getData() + ") ]";  
+    }
+    
+    
+    /**
+     * Valorizza lo Studente del voto
+     * @param studente 
+     */
+    public void setStudente(Studente studente) {
+        this.studente = studente;
+    }
+  
 }
