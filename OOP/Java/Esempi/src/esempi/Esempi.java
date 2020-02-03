@@ -73,8 +73,48 @@ public class Esempi {
         // numero di oggetti Pet creati usando il metodo statico "quanti()" 
         // questo metodo, a sua volta, usa l'attributo statico di classe
         System.out.println("Quanti sono (static) ? " + Pet.quanti());
-            
+           
+        
+        // sui numeri interi non ho side-effect
+        int x = 5;
+        int y = x;
+        y++;
+        System.out.println("Y="+y);
+        System.out.println("X="+x);
+        
+        System.out.println("******************************************************");
+        
+        // sulle classi ho side-effect nell'assegnazione!
+        int x = 5;
+        Pet ciccio = spank;
+        System.out.println("Nome di Spank[1] >> " + spank.getPetName());
+        System.out.println("Nome di Ciccio >> " + ciccio.getPetName());
+      //  ciccio.setPetName("ciccio");
+        System.out.println("Nome di Spank[2] >> " + spank.getPetName());
+        System.out.println("Uguali == " + ciccio.equals(spank));
+        System.out.println("ciccio" + ciccio);        
+        System.out.println("spank" + spank);        
+        
+        
+        System.out.println("******************************************************");
+        
+        
+        
+        
+        Pet ciccione = spank.copy();
+        System.out.println("Nome di Spank[1] >> " + spank.getPetName());
+        ciccione.setPetName("ciccione");
+        System.out.println("Nome di Ciccio >> " + ciccione.getPetName());
+        System.out.println("Nome di Spank[2] >> " + spank.getPetName());
+        System.out.println("Uguali == " + ciccione.equals(spank));
+        System.out.println("ciccio" + ciccione);        
+        System.out.println("spank" + spank);        
 
+        Pet altro = new Pet("Baffo", "BY8377");
+        System.out.println("Uguali ? : " + baffo.equals(altro));
+        System.out.println("baffo" + baffo);        
+        System.out.println("altro" + altro);        
+        
     }
     
 }

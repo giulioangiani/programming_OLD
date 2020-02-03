@@ -5,6 +5,9 @@
  */
 package esempi;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author giulio
@@ -30,6 +33,7 @@ public class Pet {
         Pet.petsNumber++;
     }
     
+    
     /**
      * Valorizza l'attributo petName
      * @param n 
@@ -50,9 +54,9 @@ public class Pet {
      * Ridefinisco la rappresentazione Stringa della classe
      * @return 
      */
-    public String toString() {
-        return "(Animaletto: " + this.petName + ", Code: " + this.chipCode + ")";
-    }
+//    public String toString() {
+//        return "(Animaletto: " + this.petName + ", Code: " + this.chipCode + ")";
+//    }
     
     /**
      * Valorizza l'attributo chipCode
@@ -75,5 +79,29 @@ public class Pet {
     public static int quanti() {
         return Pet.petsNumber;
     }
-        
+    
+    
+    public Pet copy() {
+        return new Pet(this.petName, this.chipCode);
+    }
+    
+    /**
+     * Confronto a livello Object - overriding
+     * @param object
+     * @return boolean
+     */
+    @Override
+    public boolean equals(Object object) {
+        Pet tmp = (Pet)object;
+        return (tmp.petName== this.petName) && (tmp.chipCode == this.chipCode);
+    }
+
+    /**
+     * Confronto a livello Pet - overloading
+     * @param tmp
+     * @return 
+     */
+    public boolean equals(Pet tmp) {
+        return (tmp.petName== this.petName) && (tmp.chipCode == this.chipCode);
+    }
 }
