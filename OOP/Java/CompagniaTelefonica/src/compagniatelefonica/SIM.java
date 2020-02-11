@@ -6,12 +6,9 @@ import java.util.List;
 public class SIM {
     private String numero;
 
-    /**
-     * <Enter note text here>
-     */
     private float creditoResiduo = 0;
 
-    public List<Telefonata> telefonata = new ArrayList<Telefonata> ();
+    private List<Telefonata> telefonate;
 
     /**
      * Costruttore: prende in input numero di telefono della SIM
@@ -19,6 +16,7 @@ public class SIM {
     public SIM(String numero, float credito) {
         this.numero = numero;
         this.creditoResiduo = credito;
+        this.telefonate = new ArrayList<Telefonata> ();
     }
 
     public String getNumero() {
@@ -37,20 +35,35 @@ public class SIM {
     }
 
     public void addTelefonata(Telefonata p1) {
+        telefonate.add(p1);
     }
 
     /**
      * <Enter note text here>
      */
     public void ricaricaCredito(float ricarica) {
+        this.creditoResiduo += ricarica;
     }
     
     
     public int getMinutiTotaliConversazione() {
-        return 0;
+        int result = 0;
+        for (Telefonata x : this.telefonate) {
+            result += x.getDurata();
+        }
+        return result;
+    }
+
+    
+    public List<Telefonata> getTelefonate() {
+        return this.telefonate;
     }
 
     public ArrayList<Telefonata> getListaTelefonatePerNumero(String numero) {
-        return null;
+        ArrayList<Telefonata> result = new  ArrayList<>();
+        for (Telefonata x : this.telefonate) {
+            if (x.getNumeroChiamato().equals(numero)) result.add(x);
+        }
+        return result;
     }
 }
