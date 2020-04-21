@@ -20,9 +20,11 @@ public class MainNetwork {
     public static void main(String[] args) {
         // TODO code application logic here
         
+
+        
         IpAddress ip = null;
         try {
-            ip = new IpAddress("192.168.1", 24); // 192.168.1.1/24
+            ip = new IpAddress("192.168.1.121", 24); // 192.168.1.1/24
         } catch (TooManyNetmaskBitsException ex) {
             //System.out.println(ex.getMessage());
             System.out.println("Hai messo troppi bit di rete ! ");
@@ -50,7 +52,7 @@ public class MainNetwork {
         }
         System.out.println("IP3 = " + ip3);
 
-
+        System.out.println("bc = " + ip.getBroadcast());
 
     
     
