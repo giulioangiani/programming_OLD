@@ -1,0 +1,4 @@
+uccello	1
+pesce	2
+cane	1
+gatto	2
