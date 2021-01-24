@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1608370545 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/Alberi_e_grafi/Alberi_01_base/main.cpp
+	<iostream>
+	<queue>
+

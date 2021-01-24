@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1607878676 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/STL/2020_12_12_Alberi_Binari_Tennis/main.cpp
+	<iostream>
+	<vector>
+

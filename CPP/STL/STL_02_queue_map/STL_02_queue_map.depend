@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1603704604 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/STL/STL_02_queue_map/main.cpp
+	<iostream>
+	<map>
+	<queue>
+	<vector>
+	<algorithm>
+

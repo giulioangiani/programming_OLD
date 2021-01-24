@@ -1,0 +1,99 @@
+/*
+ * Tabellone tennis
+ *
+ * */
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+struct partita {
+    string giocatoreA;
+    string giocatoreB;
+    int set1_A, set1_B, set2_A, set2_B, set3_A, set3_B;
+};
+
+ostream& operator<<(ostream& os, partita p) {
+    os << p.giocatoreA << ":" << p.giocatoreB;
+    os << " [" << p.set1_A << "-" << p.set1_B << "] ";
+    os << " [" << p.set2_A << "-" << p.set2_B << "] ";
+    os << " [" << p.set3_A << "-" << p.set3_B << "]\n";
+    return os;
+}
+
+struct nodo {
+    partita content;
+    nodo* dx;
+    nodo* sx;
+};
+typedef nodo* node_ptr;
+node_ptr root = nullptr;
+
+void insElement(node_ptr &p, partita val) {
+    p = new nodo();
+    p->content = val;
+    p->dx = nullptr;
+    p->sx = nullptr;
+}
+
+void risultati (node_ptr p) {
+    if (!p) return;
+    cout << p->content << endl;
+    risultati(p->sx);
+    risultati(p->dx);
+}
+
+string vincitore(node_ptr p) {
+    /*
+    Scrivere il codice per stampare il nome del vincitore del torneo
+    */
+    return "xxx";
+}
+
+int garavinte(node_ptr p, string giocatore) {
+    /*
+    Scrivere il codice per restituire
+    il numero di gare vinte dal giocatore specificato
+    */
+    return -1;
+}
+
+vector<int> vintiEPersi(node_ptr p, string giocatore) {
+    /*
+    Scrivere il codice per restituire
+    un array di due interi contenenti nella posizione 0
+    il numero dei set vinti da un certo giocatore,
+    nella posizione 1 il numero di quelli persi
+    */
+    return {-1, -1};
+}
+
+void cavalcataVincente (node_ptr p) {
+    /*
+    Scrivere il codice per stampare i risultati
+    ottenuti dal vincitore del torneo
+    */
+}
+
+void elimiatiAlPrimoTurno (node_ptr p) {
+    /*
+    Scrivere il codice per stampare i nomi degli eliminati al primo turno
+    */
+}
+
+int main()
+{
+    insElement(root, {"Djokovic", "Nadal", 6, 2, 3, 6, 6, 4});
+
+    insElement(root->sx, {"Djokovic", "Thiem", 6, 0, 6, 4, 0, 0});
+    insElement(root->dx, {"Medvedev", "Nadal", 2, 6, 7, 6, 3, 6});
+
+    insElement(root->sx->sx, {"Djokovic", "Federer", 2, 6, 6, 0, 6, 3});
+    insElement(root->sx->dx, {"Thiem", "Tsitsipas", 4, 6, 6, 1, 6, 4});
+    insElement(root->dx->sx, {"Medvedev", "Rublev", 6, 0, 6, 2, 0, 0});
+    insElement(root->dx->dx, {"Zverev", "Nadal", 0, 6, 7, 6, 2, 6});
+
+    risultati(root);
+
+    return 0;
+}

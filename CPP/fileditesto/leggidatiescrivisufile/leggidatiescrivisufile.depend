@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1598452721 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/fileditesto/leggidatiescrivisufile/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

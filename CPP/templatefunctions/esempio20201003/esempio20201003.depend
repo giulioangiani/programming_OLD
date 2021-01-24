@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601716601 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/templatefunctions/esempio20201003/main.cpp
+	<iostream>
+	<fstream>
+

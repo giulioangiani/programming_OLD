@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1597071758 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/liste/coda/library.cpp
+	<iostream>
+
+1597071769 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/liste/coda/main.cpp
+	<iostream>
+	"library.cpp"
+
+1597071885 /home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/liste/coda/library.cpp
+	<iostream>
+

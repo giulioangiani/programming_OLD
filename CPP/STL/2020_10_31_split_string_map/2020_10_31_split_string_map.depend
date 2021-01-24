@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1604097991 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/STL/2020_10_31_split_string_map/main.cpp
+	<string>
+	<sstream>
+	<algorithm>
+	<iterator>
+	<vector>
+	<iostream>
+	<fstream>
+	<map>
+

@@ -1,0 +1,24 @@
+Sia dato il file allegato strutturato come segue:
+- la prima riga contiene un numero intero positivo N
+- le successive N righe contengono dati relativi a numeri di telefono di alcune persone
+- le righe sono strutturate come nome,cognome,numero (ogni riga una persona)
+Scrivere un programma C++ che legge il file e costruisce un albero binario di ricerca coi valori presenti nel file
+- visitare l'albero in ordine e verificare che sia ABR
+- stampare la profondità dell'albero
+- verificare se l'albero è bilanciato o no
+- stampare il numero di Chiara
+- stampare il numero di Roberto
+
+OUTPUT Atteso:
+Visita in order: 
+antonella gialli 3336772888
+chiara neri 2345656565
+francesca bianchi 3427177212
+luca verdi 1232321322
+mario bros 3334566884
+
+Profondità: 4
+Bilanciato: 0
+Numero di Chiara : 2345656565
+Numero di Roberto : --
+

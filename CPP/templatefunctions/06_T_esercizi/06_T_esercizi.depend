@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1600524237 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/esercizi_vari/06_T_esercizi/main.cpp
+	<iostream>
+
+1601030536 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/templatefunctions/06_T_esercizi/main.cpp
+	<iostream>
+	<exception>
+

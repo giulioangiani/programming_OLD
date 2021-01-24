@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602055553 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/templatefunctions/2020_10_05_gestione_magazzino/main.cpp
+	<iostream>
+	<fstream>
+

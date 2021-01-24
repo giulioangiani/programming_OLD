@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1599469396 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/Ricorsione/03_cerca_in_lista/lista.cpp
+	<iostream>
+	<stdlib.h>
+
+1599480954 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/Ricorsione/03_cerca_in_lista/main.cpp
+	<iostream>
+	"lista.cpp"
+
+1599469396 /home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/Ricorsione/03_cerca_in_lista/lista.cpp
+	<iostream>
+	<stdlib.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1606325545 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/STL/Studenti_e_Voti_da_file/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+

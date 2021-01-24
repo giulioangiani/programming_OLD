@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604136172 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/STL/2020_10_24_verifica_templates_3/main.cpp
+	<iostream>
+	<math.h>
+

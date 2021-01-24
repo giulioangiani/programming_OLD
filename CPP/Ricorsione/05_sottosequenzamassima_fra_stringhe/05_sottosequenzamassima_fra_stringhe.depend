@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1599485727 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/Ricorsione/05_sottosequenzamassima_fra_stringhe/main.cpp
+	<iostream>
+	<string>
+

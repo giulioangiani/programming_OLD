@@ -1,0 +1,88 @@
+/*
+ * Une albero binario rappresenta le possibili strade
+ * che Ciccio può percorrere per raggiungere le case dei suoi amici
+ * La casa di Ciccio si trova nella radice e le case degli amici nelle foglie
+ * I nodi intermedi rappresentano la lunghezza delle strade che Ciccio deve
+ * attraversare per andare a casa dei suoi amici.
+ * Ciccio è molto pigro ma è stanco di stare solo e quindi andrà a trovare il più vicino.
+ * Stampa il nome dell'amico che raggiungerà e la distanza percorsa
+ */
+
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+struct nodo {
+    string amico;
+    int distanza;
+    nodo* dx;
+    nodo* sx;
+};
+typedef nodo* node_ptr;
+node_ptr root = nullptr;
+
+int distanzaPercorsa(node_ptr p) {
+    return 42;
+}
+
+string amicoRaggiunto(node_ptr p) {
+    return "Somebody";
+}
+
+void insElement(node_ptr &p, int d, string a) {
+    p = new nodo();
+    p->distanza = d;
+    p->amico = a;
+    p->dx = nullptr;
+    p->sx = nullptr;
+}
+
+
+void aLivelli(node_ptr p) {
+    queue<node_ptr> Q {}; // inizializzo la coda vuota
+    Q.push(p);              // inserisco il primo valore (p ricevuto da input)
+
+    while (!Q.empty()) {    // finché ci sono elementi in coda
+        node_ptr tmp = Q.front();   // leggi il primo elemento
+        Q.pop();                    // stacca ed elimina il primo elemento
+        cout << tmp->amico << " " << tmp->distanza << "\n";// stampo il valore contenuto nel nodo puntato da tmp
+        if (tmp->sx)                // se ho figlio sinistro metto in coda tmp->sx
+            Q.push(tmp->sx);
+        if (tmp->dx)                 // se ho figlio destro metto in coda tmp->dx
+            Q.push(tmp->dx);
+    }
+}
+
+
+int main()
+{
+    insElement(root, 0, "Ciccio");
+
+    insElement(root->sx, 5, "--");
+    insElement(root->dx, 15, "--");
+
+    insElement(root->sx->sx, 1, "--");
+    insElement(root->sx->dx, 7, "--");
+    insElement(root->dx->sx, 10, "--");
+    insElement(root->dx->dx, 18, "--");
+
+    insElement(root->sx->sx->sx, 9, "Luca");
+    insElement(root->sx->sx->dx, 11, "Andrea");
+    insElement(root->sx->dx->sx, 7, "Jack");
+    insElement(root->sx->dx->dx, 14, "Brando");
+
+    insElement(root->dx->sx->sx, 10, "Frank");
+    insElement(root->dx->sx->dx, 8, "Mohamed");
+    insElement(root->dx->dx->sx, 3, "Juri");
+    insElement(root->dx->dx->dx, 12, "Marko");
+
+    //aLivelli(root);
+
+    cout << "=================================\n";
+    cout << "Amico raggiunto " << amicoRaggiunto(root) << endl;
+    cout << "Distanza percorsa " << distanzaPercorsa(root) << endl;
+
+    return 0;
+}
+

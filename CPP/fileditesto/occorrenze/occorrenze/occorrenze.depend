@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598450947 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/fileditesto/occorrenze/occorrenze/main.cpp
+	<iostream>
+	<fstream>
+

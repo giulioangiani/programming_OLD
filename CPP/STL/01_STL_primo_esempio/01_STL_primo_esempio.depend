@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603359403 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/STL/01_STL_primo_esempio/main.cpp
+	<iostream>
+	<vector>
+	<list>
+

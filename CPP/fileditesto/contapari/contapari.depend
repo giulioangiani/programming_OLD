@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1598455561 source:/home/giulio/Documenti/Didattica/Scuola/Didattica/Informatica/github_repo/programming/CPP/fileditesto/contapari/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
