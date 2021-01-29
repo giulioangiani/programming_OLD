@@ -1,0 +1,19 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<table class='table table-striped'>
+		<tr>
+			<th>ID</th>
+			<th>Descrizione</th>
+			<th>Prezzo</th>
+		</tr>
+	{% for e in elements %}
+		<tr>
+			<td>{{ e.id }}</td>
+			<td>{{ e.description }}</td>
+			<td>{{ e.prezzo }}</td>
+		</tr>
+
+	{% endfor %}
+	</table>
+{% endblock  %}

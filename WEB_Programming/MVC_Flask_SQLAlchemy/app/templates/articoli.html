@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>
+			{{ title }}
+		</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	</head>
+	<body>
+		<h3>{{ content }}</h3>
+		
+			<table class='table table-striped'>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Descrizione</th>
+						<th>Prezzo</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+				{% for a in articoli %}
+					<tr>
+						<td>{{ a[0] }}</td>
+						<td>{{ a[1] }}</td>
+						<td>{{ a[2] }}</td>
+						<td><a href='/prodotto?codice={{ a[0] }}'>vai alla scheda prodotto</a></td>
+					</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+
+		</body>
+</html>

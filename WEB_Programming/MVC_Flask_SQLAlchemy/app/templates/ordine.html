@@ -1,0 +1,30 @@
+{% extends "home.html" %}
+{% include 'header.html' %}
+{% block maincontent %}
+	<div>
+		Cliente <b>{{ dati_cliente.nome }} {{dati_cliente.cognome }}</b>
+	</div>
+	<div>
+		Ordine <b>{{ dati_ordine.id }}</b> del <b>{{dati_ordine.data }}</b>
+	</div>
+	<h4>Dettaglio Ordine</h4>
+	<table class='table table-striped'>
+		<tr>
+			<th>ID</th>
+			<th>Descrizione</th>
+			<th>Quantita</th>
+			<th>Prezzo unitario</th>
+			<th>Subtotale</th>
+		</tr>
+	{% for r in righe_ordine %}
+		<tr>
+			<td>{{ r.id }}</td>
+			<td>{{ r.descrizione }}</td>
+			<td align=right>{{ r.qta }}</td>
+			<td align=right>{{ "%.2f"|format(r.prezzo) }} €</td>
+			<td align=right>{{ "%.2f"|format(r.prezzo*r.qta) }} €</td>
+		</tr>
+	{% endfor %}
+		<tr><td></td><td></td><td></td><td>Totale</td><td align=right>{{ totale|round(2) }} €</td></tr>
+	</table>
+{% endblock  %}
