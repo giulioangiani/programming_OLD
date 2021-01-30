@@ -1,0 +1,43 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<h3>Scheda dello studente {{ studente.cognome }} {{ studente.nome }} </h3>
+	<form name='frm_studente' method='POST' action='/updatestudente'>
+		<input type='hidden' name='id' value='{{ studente.id }}'>
+		<table class='table table-striped w-25 m-auto'>
+			<tr>
+				<td class='align-right'>Matricola</td>
+				<td class='left'><input type='text' name='matricola' value='{{ studente.matricola }}'></td>
+			</tr>
+			<tr>
+				<td class='align-right'>Cognome</td>
+				<td class='left'><input type='text' name='cognome' value='{{ studente.cognome }}'></td>
+			</tr>
+			<tr>
+				<td class='align-right'>Nome</td>
+				<td class='left'><input type='text' name='nome' value='{{ studente.nome }}'></td>
+			</tr>
+			<tr>
+				<td class='align-right'>Sex</td>
+				<td class='left'>
+					<select name='sesso'>
+						<option value='M' 
+							{% if studente.sesso == 'M' %} SELECTED {% endif %}
+						>Maschio</option>
+						<option value='F' 
+							{% if studente.sesso == 'F' %} SELECTED {% endif %}
+						>Femmina</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class='align-right'>Data di nascita</td>
+				<td class='left'><input type='date' name='datanascita' value='{{ studente.datanascita }}'></td>
+			</tr>
+			<tr>
+				<td class='align-right'><input type='submit' name='submit' value='Modifica'></td>
+				<td class='left'></td>
+			</tr>
+		</table>
+	</form>
+{% endblock  %}

@@ -1,0 +1,19 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<table class='table table-striped'>
+		<tr>
+			<th>ID</th>
+			<th>Codice</th>
+			<th>Nazione</th>
+		</tr>
+	{% for e in nazioni %}
+		<tr>
+			<td>{{ e.id }}</td>
+			<td>{{ e.codice }}</td>
+			<td>{{ e.nazione }}</td>
+		</tr>
+
+	{% endfor %}
+	</table>
+{% endblock  %}

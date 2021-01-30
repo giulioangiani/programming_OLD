@@ -1,0 +1,21 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<table class='table table-striped'>
+		<tr>
+			<th>Classe</th>
+			<th>Sezione</th>
+			<th>Indirizzo</th>
+			<th></th>
+		</tr>
+	{% for e in classi %}
+		<tr>
+			<td>{{ e.classe }}</td>
+			<td>{{ e.sezione }}</td>
+			<td>{{ e.indirizzo }}</td>
+			<td><a href='/classi/{{ e.id }}'>lista degli studenti</a></td>
+		</tr>
+
+	{% endfor %}
+	</table>
+{% endblock  %}
