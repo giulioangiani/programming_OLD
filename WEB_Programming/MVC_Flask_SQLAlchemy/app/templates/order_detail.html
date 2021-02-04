@@ -1,0 +1,22 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<h3 class='w-50 m-auto'>Customer {{ order.customer.name }} {{ order.customer.familyname }} </h3>
+	<form name='orderform' method='POST' action='/orderupdate'>
+		<input type='hidden' name='id' value='{{ order.id }}'>
+		<table class='table table-striped w-50 m-auto'>
+			<tr>
+				<td class='align-right'>Order code</td>
+				<td class='left'><input type='text' name='ordercode' value='{{ order.ordercode }}'></td>
+			</tr>
+			<tr>
+				<td class='align-right'>Order date</td>
+				<td class='left'><input type='date' name='orderdate' value='{{ order.orderdate }}'></td>
+			</tr>
+			<tr>
+				<td class='align-right'><input type='submit' name='submit' value='Modifica'></td>
+				<td class='left'></td>
+			</tr>
+		</table>
+	</form>
+{% endblock  %}

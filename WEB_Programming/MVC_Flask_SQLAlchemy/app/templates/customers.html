@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<table class='table table-striped'>
+		<tr>
+			<th>Nome</th>
+			<th>Cognome</th>
+			<th>Codice Fiscale</th>
+			<th>Codice Fiscale</th>
+			<th>Data di Nascita</th>
+			<th></th>
+		</tr>
+	{% for c in customers %}
+		<tr>
+			<td>{{ c.name }}</td>
+			<td>{{ c.familyname }}</td>
+			<td>{{ c.taxcode }}</td>
+			<td>{{ c.birthdate }}</td>
+			<td><a href='/customer/{{ c.id }}'>lista degli ordini</a></td>
+		</tr>
+	{% endfor %}
+	</table>
+{% endblock  %}

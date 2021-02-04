@@ -1,0 +1,19 @@
+{% extends "home.html" %}
+{% include "header.html" %}
+{% block maincontent %}
+	<h3>Cliente {{ customer.name }} {{ customer.familyname }} [{{ customer.taxcode }}] </h3>
+	<table class='table table-striped'>
+		<tr>
+			<th>Code</th>
+			<th>Date</th>
+			<th></th>
+		</tr>
+	{% for o in customer.orders %}
+		<tr>
+			<td>{{ o.ordercode }}</td>
+			<td>{{ o.orderdate }}</td>
+			<td><a href='/order/{{ o.id }}'>scheda</a></td>
+		</tr>
+	{% endfor %}
+	</table>
+{% endblock  %}
