@@ -1,0 +1,15 @@
+# **Esercizio con grafi rappresentati con matrici di adiacenza**
+
+
+Una serie di torrenti di montagna è rappresentata dalla figura in allegato
+ogni nodo (in colore marrone) indica una sorgente e ogni arco un torrente che collega due sorgenti
+Il numero (in rosso) su ogni arco indica la quantità di acqua della sorgente superiore che viene trasportata alla sorgente inferiore
+
+Scrivere un programma Java che, leggendo il file cascata.csv, calcoli il nodo (o i nodi) che a valle avranno la portata di acqua maggiore
+e il percorso relativo
+
+Il file cascata.csv rappresenta tale situazione ed ha il seguente formato
+ - la prima riga indica il numero N di nodi presenti
+ - le successive N righe hanno il formato A,B,P che indicano la portata di acqua P sull'arco che va dalla sorgente A alla sorgente B
+
+NOTA: i valori di portata dell'acqua vanno sommati, arco per arco
